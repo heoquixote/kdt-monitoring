@@ -19,9 +19,11 @@ pytest -q
 2. `python -m app.collector --dump raw/` 로 실수집(원본 응답도 저장). KDT 취업률은 과정 일정 API로 이전 회차 평균을 채우며 과정 ID 단위로 30일 캐시
    - 훈련지역 코드표 갱신: `python -m app.collector --codes` (`WORK24_CODE_KEY`, 결과 `data/codes_area.json`)
    - 실데이터 데모: `python scripts/export_courses.py && python scripts/build_demo.py data/courses_live.json`
-3. 매일 자동 수집: `.github/workflows/collect.yml`이 매일 06:00(KST)에 수집하고 `data/kdt.db`·`data/courses_live.json`을 커밋해 일별 이력을 쌓습니다.
-   - Settings → Secrets and variables → Actions에 `WORK24_API_KEY`, `WORK24_CODE_KEY` 등록
+3. 매일 자동 수집·배포: `.github/workflows/collect.yml`이 매일 06:00(KST)에 수집 → `data/kdt.db`·`data/courses_live.json` 커밋(일별 이력 누적) → GitHub Pages에 화면 배포. main에 코드가 push되면 커밋된 데이터로 Pages만 다시 배포합니다.
+   - Settings → Pages → Build and deployment → Source: **GitHub Actions**
+   - Settings → Secrets and variables → Actions에 `WORK24_API_KEY`, `WORK24_CODE_KEY` 등록 (없으면 수집은 건너뛰고 배포만 진행)
    - Actions 탭 → `daily-collect` → Run workflow로 즉시 실행 가능
+   - 배포 주소: https://heoquixote.github.io/kdt-monitoring/
 
 ## 구조
 

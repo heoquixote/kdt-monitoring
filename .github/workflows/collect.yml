@@ -1,15 +1,20 @@
 name: daily-collect
 on:
-  schedule: [{ cron: "0 21 * * *" }]   # 매일 06:00 KST
+  schedule: [{ cron: "0 21 * * *" }]   # 매일 06:00 KST: 수집 → 커밋 → Pages 배포
+  push:
+    branches: [main]                    # 코드 변경 시: 커밋된 데이터로 Pages만 다시 배포
+    paths-ignore: ["data/kdt.db", "data/courses_live.json"]
   workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency: { group: daily-collect, cancel-in-progress: false }
 
 jobs:
-  collect:
+  build:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
@@ -21,14 +26,30 @@ jobs:
         with: { python-version: "3.12", cache: pip }
       - run: pip install -r requirements.txt
       - name: Collect from 고용24
-        run: python -m app.collector
-      - name: Export courses
-        run: python scripts/export_courses.py
+        if: github.event_name != 'push' && env.WORK24_API_KEY != ''
+        run: |
+          python -m app.collector
+          python scripts/export_courses.py
       # 일별 스냅샷 이력이 다음 실행으로 이어지도록 DB와 내보낸 JSON을 커밋한다.
       - name: Commit data
+        if: github.event_name != 'push' && env.WORK24_API_KEY != ''
         run: |
           git config user.name "kdt-bot"
           git config user.email "kdt-bot@users.noreply.github.com"
           git add data/kdt.db data/courses_live.json
           git diff --cached --quiet || git commit -m "data: daily collect $(date -u +%F)"
           git push
+      - name: Build site
+        run: |
+          python scripts/build_demo.py data/courses_live.json
+          mkdir -p site && cp dist/demo.html site/index.html && touch site/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: site }
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: { name: github-pages, url: "${{ steps.deployment.outputs.page_url }}" }
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
