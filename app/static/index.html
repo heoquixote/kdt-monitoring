@@ -114,7 +114,7 @@ footer { margin-top: 28px; font-size: .78rem; color: var(--muted) }
         <button class="tab" role="tab" id="tab-mon" aria-selected="false" data-tab="mon">모니터링</button>
       </div>
       <div class="toolbar" id="toolbar" hidden>
-        <input id="q" type="search" placeholder="과정명·기관 검색">
+        <input id="q" type="search" placeholder="과정명·기관·지역 검색 (예: K-뉴딜, 데이터)">
         <select id="f-program" aria-label="사업 구분"><option value="">전체 사업</option><option value="C0104">K-디지털 트레이닝</option><option value="C0105">K-디지털 기초역량</option></select>
         <select id="sort" aria-label="정렬"><option value="score">추천순</option><option value="start">개강 빠른 순</option><option value="fill">마감 임박 순</option><option value="empl">취업률 순</option></select>
       </div>
@@ -130,7 +130,10 @@ const TAGS = { data: "데이터분석", ai: "AI·머신러닝", web: "웹개발"
   security: "정보보안", game: "게임·XR", design: "UX·디자인", manufacturing: "제조DX·반도체", pm: "기획·PM", blockchain: "블록체인·핀테크" };
 const REGIONS = ["서울", "경기", "인천", "부산", "대구", "광주", "대전"];
 const MODES = ["집체", "원격"];
-const PROGRAM = { C0104: "KDT", C0105: "기초역량" };
+const PROGRAM = { C0104: "K-DT", C0105: "기초역량" };
+// 검색용 사업 별칭: K-뉴딜(디지털 뉴딜) 사업이 지금의 K-DT·기초역량이라 둘 다 'K-뉴딜'로 찾히게 한다.
+const PROGRAM_ALIAS = { C0104: "K-DT KDT K-디지털 트레이닝 K-뉴딜 디지털뉴딜", C0105: "K-디지털 기초역량훈련 K-뉴딜 디지털뉴딜" };
+const norm = s => String(s || "").toLowerCase().replace(/[\s\-·_]/g, "");
 
 // ── 추천 로직: app/recommender.py 와 동일한 가중치·규칙 ──
 const W = { interest: .40, region: .15, mode: .10, schedule: .10, quality: .15, urgency: .10 };
@@ -276,7 +279,8 @@ function render() {
   if (tab === "all") {
     const q = document.getElementById("q").value.trim().toLowerCase(), pg = document.getElementById("f-program").value;
     const s = document.getElementById("sort").value;
-    list = list.filter(c => (!q || (c.title + c.org_name).toLowerCase().includes(q)) && (!pg || c.program === pg));
+    const nq = norm(q);
+    list = list.filter(c => (!nq || norm(c.title + c.org_name + c.region + (PROGRAM_ALIAS[c.program] || "")).includes(nq)) && (!pg || c.program === pg));
     const fill = c => c.capacity ? (c.registered || 0) / c.capacity : 0;
     list.sort(s === "start" ? (a, b) => a.start_date.localeCompare(b.start_date) : s === "fill" ? (a, b) => fill(b) - fill(a)
       : s === "empl" ? (a, b) => (b.empl_rate3 ?? -1) - (a.empl_rate3 ?? -1) : (a, b) => b.score - a.score);
