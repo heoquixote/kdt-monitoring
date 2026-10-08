@@ -1,0 +1,331 @@
+<title>KDT 과정 나침반</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: 좌측 취향 패널(접힘 가능) + 우측 탭(추천 / 전체 / 모니터링). 모바일은 한 열. */
+:root {
+  --bg: #f5f7f6; --surface: #ffffff; --fg: #17211f; --muted: #5b6a66; --line: #dbe3e0;
+  --accent: #0f6b5c; --accent-soft: #e2f1ed; --warn: #b45309; --warn-soft: #fdf0e1; --good: #15803d;
+  --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  --font-num: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f1514; --surface: #172120; --fg: #e4ece9; --muted: #93a39e; --line: #2a3835;
+  --accent: #4fc2ab; --accent-soft: #1b3531; --warn: #f0a24d; --warn-soft: #3a2a17; --good: #5ad08a; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0f1514; --surface: #172120; --fg: #e4ece9; --muted: #93a39e; --line: #2a3835;
+  --accent: #4fc2ab; --accent-soft: #1b3531; --warn: #f0a24d; --warn-soft: #3a2a17; --good: #5ad08a; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 15px; line-height: 1.55; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 48px; }
+header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; margin-bottom: 18px; }
+h1 { font-size: 1.45rem; margin: 0; letter-spacing: -0.01em; text-wrap: balance }
+.sub { color: var(--muted); font-size: .88rem; margin: 2px 0 0 }
+.banner { font-size: .82rem; color: var(--warn); background: var(--warn-soft); padding: 6px 10px; border-radius: 6px; }
+.grid { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 860px) { .grid { grid-template-columns: minmax(0, 1fr) } }
+aside { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 16px; position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); }
+@media (max-width: 860px) { aside { position: static } }
+aside h2 { font-size: 1rem; margin: 0 }
+fieldset { border: 0; padding: 0; margin: 0; display: grid; gap: 8px; min-width: 0 }
+legend { font-size: .76rem; font-weight: 600; letter-spacing: .04em; color: var(--muted); margin-bottom: 6px; padding: 0 }
+.chips { display: flex; flex-wrap: wrap; gap: 6px }
+.chip { font: inherit; font-size: .82rem; border: 1px solid var(--line); background: transparent; color: var(--fg); padding: 4px 10px; border-radius: 999px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+.chip:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+.row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px }
+label.f { display: grid; gap: 4px; font-size: .78rem; color: var(--muted) }
+input, select { font: inherit; font-size: .88rem; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; width: 100%; min-width: 0 }
+.saved-note { font-size: .78rem; color: var(--muted); margin: 0 }
+.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); margin-bottom: 14px; overflow-x: auto }
+.tab { font: inherit; font-weight: 600; font-size: .92rem; background: none; border: 0; color: var(--muted); padding: 8px 12px; border-bottom: 2px solid transparent; cursor: pointer; white-space: nowrap }
+.tab[aria-selected="true"] { color: var(--fg); border-color: var(--accent) }
+.tab .n { font-family: var(--font-num); font-size: .78rem; color: var(--muted); margin-left: 4px }
+.toolbar { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px }
+.toolbar input { flex: 1 1 200px; width: auto } .toolbar select { width: auto; flex: 0 0 auto }
+.list { display: grid; gap: 10px }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: grid; gap: 8px; min-width: 0 }
+.card.dismissed { opacity: .5 }
+.top { display: flex; gap: 10px; align-items: start; justify-content: space-between }
+.rank { font-family: var(--font-num); font-size: .8rem; color: var(--accent); min-width: 22px }
+.title { font-weight: 600; font-size: 1rem; line-height: 1.4; margin: 0; min-width: 0 }
+.title a { color: inherit; text-decoration: none } .title a:hover { text-decoration: underline }
+.badge { font-size: .7rem; font-weight: 600; letter-spacing: .03em; padding: 2px 7px; border-radius: 4px; white-space: nowrap; background: var(--accent-soft); color: var(--accent) }
+.badge.basic { background: var(--warn-soft); color: var(--warn) }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: .84rem; color: var(--muted) }
+.meta b { color: var(--fg); font-weight: 500; font-family: var(--font-num); font-size: .82rem }
+.stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; align-items: end }
+.stat { display: grid; gap: 3px; font-size: .74rem; color: var(--muted) }
+.stat strong { font-family: var(--font-num); font-size: .9rem; color: var(--fg); font-weight: 500 }
+.bar { height: 5px; background: var(--line); border-radius: 3px; overflow: hidden }
+.bar i { display: block; height: 100%; background: var(--accent) } .bar i.hot { background: var(--warn) }
+.foot { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between }
+.reasons { display: flex; flex-wrap: wrap; gap: 6px }
+.reason { font-size: .76rem; color: var(--accent); border: 1px solid var(--accent-soft); background: var(--accent-soft); padding: 1px 8px; border-radius: 999px }
+.acts { display: flex; gap: 6px }
+.btn { font: inherit; font-size: .8rem; border: 1px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 6px; padding: 4px 10px; cursor: pointer }
+.btn[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); font-weight: 600 }
+.empty { color: var(--muted); padding: 24px; text-align: center; border: 1px dashed var(--line); border-radius: 10px }
+.mon { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; min-width: 0 }
+.panel h3 { font-size: .8rem; letter-spacing: .04em; color: var(--muted); margin: 0 0 10px; font-weight: 600 }
+.kpis { display: flex; gap: 24px; flex-wrap: wrap }
+.kpi strong { display: block; font-family: var(--font-num); font-size: 1.6rem; font-weight: 500 }
+.kpi span { font-size: .78rem; color: var(--muted) }
+.hbar { display: grid; grid-template-columns: 96px minmax(0, 1fr) 28px; gap: 8px; align-items: center; font-size: .82rem; margin-bottom: 6px }
+.hbar .bar { height: 8px } .hbar em { font-style: normal; font-family: var(--font-num); font-size: .78rem; text-align: right; color: var(--muted) }
+.mini { font-size: .84rem; display: grid; gap: 6px; margin: 0; padding: 0; list-style: none }
+.mini li { display: flex; justify-content: space-between; gap: 10px } .mini li span:first-child { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.mini b { font-family: var(--font-num); font-weight: 500; color: var(--warn) }
+footer { margin-top: 28px; font-size: .78rem; color: var(--muted) }
+@media (max-width: 520px) { .stats { grid-template-columns: 1fr 1fr } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>KDT 과정 나침반</h1>
+      <p class="sub">모집 중인 K-디지털 트레이닝 · K-디지털 기초역량훈련 과정을 모으고, 내 취향에 맞춰 골라 드립니다.</p>
+    </div>
+    <span class="banner" id="mode-banner" hidden>샘플 데이터로 보는 데모입니다. 과정·기관은 가상입니다.</span>
+  </header>
+
+  <div class="grid">
+    <aside aria-label="내 취향">
+      <h2>내 취향</h2>
+      <fieldset><legend>관심 분야</legend><div class="chips" id="f-interests"></div></fieldset>
+      <fieldset><legend>선호 지역</legend><div class="chips" id="f-regions"></div></fieldset>
+      <fieldset><legend>훈련 방식</legend><div class="chips" id="f-modes"></div></fieldset>
+      <div class="row2">
+        <label class="f">이날 이후 개강<input type="date" id="f-start"></label>
+        <label class="f">최대 기간(주)<input type="number" id="f-weeks" min="1" max="52" placeholder="제한 없음"></label>
+      </div>
+      <label class="f">키워드 (쉼표로 구분)<input id="f-keywords" placeholder="예: Tableau, LLM"></label>
+      <p class="saved-note" id="saved-note">취향은 이 브라우저에 저장됩니다.</p>
+    </aside>
+
+    <main>
+      <div class="tabs" role="tablist">
+        <button class="tab" role="tab" id="tab-rec" aria-selected="true" data-tab="rec">추천<span class="n" id="n-rec"></span></button>
+        <button class="tab" role="tab" id="tab-all" aria-selected="false" data-tab="all">전체 과정<span class="n" id="n-all"></span></button>
+        <button class="tab" role="tab" id="tab-saved" aria-selected="false" data-tab="saved">찜<span class="n" id="n-saved"></span></button>
+        <button class="tab" role="tab" id="tab-mon" aria-selected="false" data-tab="mon">모니터링</button>
+      </div>
+      <div class="toolbar" id="toolbar" hidden>
+        <input id="q" type="search" placeholder="과정명·기관 검색">
+        <select id="f-program" aria-label="사업 구분"><option value="">전체 사업</option><option value="C0104">K-디지털 트레이닝</option><option value="C0105">K-디지털 기초역량</option></select>
+        <select id="sort" aria-label="정렬"><option value="score">추천순</option><option value="start">개강 빠른 순</option><option value="fill">마감 임박 순</option><option value="empl">취업률 순</option></select>
+      </div>
+      <section id="view"></section>
+    </main>
+  </div>
+  <footer>비공식 정보 서비스입니다. 고용24 공시 데이터를 하루 한 번 수집해 재구성하며, 모집 상태·일정·비용과 수강 신청은 고용24가 기준입니다.</footer>
+</div>
+
+<script id="sample-data" type="application/json">__SAMPLE_DATA__</script>
+<script>
+const TAGS = { data: "데이터분석", ai: "AI·머신러닝", web: "웹개발", mobile: "모바일앱", cloud: "클라우드·DevOps",
+  security: "정보보안", game: "게임·XR", design: "UX·디자인", manufacturing: "제조DX·반도체", pm: "기획·PM", blockchain: "블록체인·핀테크" };
+const REGIONS = ["서울", "경기", "인천", "부산", "대구", "광주", "대전"];
+const MODES = ["집체", "원격"];
+const PROGRAM = { C0104: "KDT", C0105: "기초역량" };
+
+// ── 추천 로직: app/recommender.py 와 동일한 가중치·규칙 ──
+const W = { interest: .40, region: .15, mode: .10, schedule: .10, quality: .15, urgency: .10 };
+const M = 20;
+const mean = a => a.reduce((s, x) => s + x, 0) / a.length;
+const bayes = (x, n, mu) => x == null ? mu : ((n || 0) * x + M * mu) / ((n || 0) + M);
+const dayDiff = (a, b) => Math.round((a - b) / 864e5);
+function stats(cs) {
+  const er = cs.map(c => c.empl_rate3).filter(x => x != null), st = cs.map(c => c.satisfaction).filter(x => x != null);
+  return [er.length ? mean(er) : 50, st.length ? mean(st) : 80];
+}
+function score(c, p, [erMu, satMu], today) {
+  const parts = {}, reasons = [];
+  const interests = new Set(p.interests), kws = p.keywords.map(k => k.trim().toLowerCase()).filter(Boolean);
+  const hit = c.tags.filter(t => interests.has(t)), kwHit = kws.filter(k => c.title.toLowerCase().includes(k));
+  parts.interest = Math.min(1, (interests.size ? hit.length / interests.size : .3) + .3 * kwHit.length);
+  if (hit.length) reasons.push(`관심 분야 ${TAGS[hit[0]]}`);
+  if (kwHit.length) reasons.push(`키워드 '${kwHit[0]}'`);
+  if (c.mode === "원격") parts.region = .8;
+  else if (!p.regions.length) parts.region = .5;
+  else { parts.region = p.regions.some(r => (c.region || "").startsWith(r)) ? 1 : 0; if (parts.region) reasons.push(`선호 지역 ${c.region}`); }
+  parts.mode = !p.modes.length || p.modes.includes(c.mode) ? 1 : 0;
+  const start = c.start_date ? new Date(c.start_date) : null, end = c.end_date ? new Date(c.end_date) : null;
+  let ok = 1;
+  if (p.start_after && start && start < new Date(p.start_after)) ok -= .6;
+  if (p.max_weeks && start && end && dayDiff(end, start) / 7 > p.max_weeks) ok -= .6;
+  parts.schedule = Math.max(0, ok);
+  parts.quality = .6 * bayes(c.empl_rate3, c.capacity, erMu) / 100 + .4 * bayes(c.satisfaction, c.capacity, satMu) / 100;
+  if (c.empl_rate3 != null && c.empl_rate3 >= erMu + 10) reasons.push(`취업률 ${Math.round(c.empl_rate3)}%`);
+  const days = start ? dayDiff(start, today) : 60, fill = c.capacity ? (c.registered || 0) / c.capacity : 0;
+  parts.urgency = Math.max(0, 1 - days / 60) * .5 + Math.min(fill, 1) * .5;
+  if (days >= 0 && days <= 14) reasons.push(`개강 D-${days}`);
+  let s = Object.entries(parts).reduce((a, [k, v]) => a + W[k] * v, 0);
+  if (parts.mode === 0 || parts.schedule === 0) s *= .5;
+  return { score: s, reasons: reasons.slice(0, 3) };
+}
+
+// ── 상태 & 저장 ──
+const store = {
+  get(k, d) { try { const v = localStorage.getItem("kdt." + k); return v ? JSON.parse(v) : d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem("kdt." + k, JSON.stringify(v)); } catch {} },
+};
+const pid = store.get("pid", null) || (() => { const id = "p_" + Math.random().toString(36).slice(2, 10); store.set("pid", id); return id; })();
+let API = false, courses = [], tab = location.hash === "#all" ? "all" : location.hash === "#mon" ? "mon" : "rec";
+let profile = store.get("profile", { interests: ["data", "ai"], regions: ["서울"], modes: [], start_after: "", max_weeks: null, keywords: [] });
+let fb = store.get("fb", {}); // key -> "save" | "dismiss"
+const key = c => c.course_id + "_" + c.round;
+
+function syncProfile() {
+  store.set("profile", profile);
+  if (API) fetch(`/api/profile/${pid}`, { method: "PUT", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ ...profile, start_after: profile.start_after || null }) }).catch(() => {});
+}
+function setFb(c, action) {
+  const k = key(c), prev = fb[k];
+  const next = prev === action ? null : action;
+  if (next) fb[k] = next; else delete fb[k];
+  store.set("fb", fb);
+  if (API) fetch("/api/feedback", { method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ profile_id: pid, course_id: c.course_id, round: c.round, action: next || (prev === "save" ? "unsave" : "click") }) }).catch(() => {});
+  render();
+}
+
+// ── 취향 패널 ──
+function chipGroup(el, items, labelOf, field) {
+  el.innerHTML = "";
+  for (const it of items) {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "chip"; b.textContent = labelOf(it);
+    b.setAttribute("aria-pressed", profile[field].includes(it));
+    b.onclick = () => {
+      profile[field] = profile[field].includes(it) ? profile[field].filter(x => x !== it) : [...profile[field], it];
+      b.setAttribute("aria-pressed", profile[field].includes(it)); syncProfile(); render();
+    };
+    el.append(b);
+  }
+}
+function initPanel() {
+  chipGroup(document.getElementById("f-interests"), Object.keys(TAGS), k => TAGS[k], "interests");
+  chipGroup(document.getElementById("f-regions"), REGIONS, x => x, "regions");
+  chipGroup(document.getElementById("f-modes"), MODES, x => x === "집체" ? "오프라인(집체)" : "온라인(원격)", "modes");
+  const s = document.getElementById("f-start"), w = document.getElementById("f-weeks"), k = document.getElementById("f-keywords");
+  s.value = profile.start_after || ""; w.value = profile.max_weeks || ""; k.value = profile.keywords.join(", ");
+  s.onchange = () => { profile.start_after = s.value; syncProfile(); render(); };
+  w.oninput = () => { profile.max_weeks = Number(w.value) || null; syncProfile(); render(); };
+  k.oninput = () => { profile.keywords = k.value.split(",").map(x => x.trim()).filter(Boolean); syncProfile(); render(); };
+}
+
+// ── 렌더링 ──
+const won = n => n == null ? "-" : n >= 10000 ? `${Math.round(n / 10000).toLocaleString()}만원` : `${n.toLocaleString()}원`;
+const md = d => d ? d.slice(5).replace("-", ".") : "-";
+const esc = s => String(s ?? "").replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
+
+function card(c, i) {
+  const fill = c.capacity ? Math.min(1, (c.registered || 0) / c.capacity) : 0;
+  const weeks = c.start_date && c.end_date ? Math.round(dayDiff(new Date(c.end_date), new Date(c.start_date)) / 7) : null;
+  const el = document.createElement("article");
+  el.className = "card" + (fb[key(c)] === "dismiss" ? " dismissed" : "");
+  el.innerHTML = `
+    <div class="top">
+      ${i != null ? `<span class="rank">${String(i + 1).padStart(2, "0")}</span>` : ""}
+      <h3 class="title" style="flex:1"><a href="${esc(c.link)}" target="_blank" rel="noopener">${esc(c.title)}</a></h3>
+      <span class="badge ${c.program === "C0105" ? "basic" : ""}">${PROGRAM[c.program] || c.program}</span>
+    </div>
+    <div class="meta"><span>${esc(c.org_name)}</span><span>${esc(c.region)}</span>
+      <span>개강 <b>${md(c.start_date)}</b> ~ <b>${md(c.end_date)}</b>${weeks ? ` (${weeks}주)` : ""}</span>
+      <span>훈련비 <b>${won(c.cost)}</b></span></div>
+    <div class="stats">
+      <div class="stat">충원률 <strong>${c.registered ?? "-"}/${c.capacity ?? "-"}명</strong>
+        <div class="bar"><i class="${fill >= .85 ? "hot" : ""}" style="width:${(fill * 100).toFixed(0)}%"></i></div></div>
+      <div class="stat"${c.empl_source ? ` title="${esc(c.empl_source)}"` : ""}>취업률(3개월)${c.empl_source ? " · 이전 회차" : ""} <strong>${c.empl_rate3 != null ? c.empl_rate3.toFixed(1) + "%" : "신규"}</strong></div>
+      <div class="stat">만족도 <strong>${c.satisfaction != null ? c.satisfaction.toFixed(1) : "-"}</strong></div>
+    </div>
+    <div class="foot">
+      <div class="reasons">${(c.reasons || []).map(r => `<span class="reason">${esc(r)}</span>`).join("")}</div>
+      <div class="acts">
+        <button class="btn" data-a="save" aria-pressed="${fb[key(c)] === "save"}">${fb[key(c)] === "save" ? "찜함" : "찜"}</button>
+        <button class="btn" data-a="dismiss" aria-pressed="${fb[key(c)] === "dismiss"}">관심 없음</button>
+      </div>
+    </div>`;
+  el.querySelectorAll("[data-a]").forEach(b => b.onclick = () => setFb(c, b.dataset.a));
+  return el;
+}
+
+function ranked() {
+  const st = stats(courses), today = new Date(new Date().toDateString());
+  return courses.map(c => ({ ...c, ...score(c, profile, st, today) }));
+}
+
+function render() {
+  const view = document.getElementById("view"), tb = document.getElementById("toolbar");
+  document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", t.dataset.tab === tab));
+  const all = ranked();
+  const saved = all.filter(c => fb[key(c)] === "save");
+  const recs = all.filter(c => fb[key(c)] !== "dismiss").sort((a, b) => b.score - a.score).slice(0, 10);
+  document.getElementById("n-rec").textContent = recs.length;
+  document.getElementById("n-all").textContent = all.length;
+  document.getElementById("n-saved").textContent = saved.length;
+  tb.hidden = tab !== "all";
+  view.innerHTML = "";
+  if (tab === "mon") return renderMon(view, all);
+  let list = tab === "rec" ? recs : tab === "saved" ? saved : all;
+  if (tab === "all") {
+    const q = document.getElementById("q").value.trim().toLowerCase(), pg = document.getElementById("f-program").value;
+    const s = document.getElementById("sort").value;
+    list = list.filter(c => (!q || (c.title + c.org_name).toLowerCase().includes(q)) && (!pg || c.program === pg));
+    const fill = c => c.capacity ? (c.registered || 0) / c.capacity : 0;
+    list.sort(s === "start" ? (a, b) => a.start_date.localeCompare(b.start_date) : s === "fill" ? (a, b) => fill(b) - fill(a)
+      : s === "empl" ? (a, b) => (b.empl_rate3 ?? -1) - (a.empl_rate3 ?? -1) : (a, b) => b.score - a.score);
+  }
+  if (!list.length) {
+    view.innerHTML = `<p class="empty">${tab === "saved" ? "찜한 과정이 없습니다. 추천 목록에서 찜을 눌러 모아 보세요." : "조건에 맞는 과정이 없습니다. 검색어나 필터를 줄여 보세요."}</p>`;
+    return;
+  }
+  const wrap = document.createElement("div"); wrap.className = "list";
+  list.forEach((c, i) => wrap.append(card(c, tab === "rec" ? i : null)));
+  view.append(wrap);
+}
+
+function renderMon(view, all) {
+  const byTag = {}; all.forEach(c => c.tags.forEach(t => byTag[t] = (byTag[t] || 0) + 1));
+  const tagRows = Object.entries(byTag).sort((a, b) => b[1] - a[1]);
+  const max = Math.max(...tagRows.map(r => r[1]), 1);
+  const today = new Date(new Date().toDateString());
+  const soon = all.filter(c => { const d = dayDiff(new Date(c.start_date), today); return d >= 0 && d <= 14; }).length;
+  const nearFull = all.filter(c => c.capacity).map(c => ({ ...c, fill: (c.registered || 0) / c.capacity }))
+    .sort((a, b) => b.fill - a.fill).slice(0, 6);
+  const kdt = all.filter(c => c.program === "C0104").length;
+  view.innerHTML = `<div class="mon">
+    <div class="panel" style="grid-column:1/-1"><h3>지금 모집 중</h3><div class="kpis">
+      <div class="kpi"><strong>${all.length}</strong><span>전체 과정</span></div>
+      <div class="kpi"><strong>${kdt}</strong><span>K-디지털 트레이닝</span></div>
+      <div class="kpi"><strong>${all.length - kdt}</strong><span>K-디지털 기초역량</span></div>
+      <div class="kpi"><strong>${soon}</strong><span>2주 안에 개강</span></div></div></div>
+    <div class="panel"><h3>분야별 과정 수</h3>${tagRows.map(([t, n]) =>
+      `<div class="hbar"><span>${TAGS[t]}</span><div class="bar"><i style="width:${n / max * 100}%"></i></div><em>${n}</em></div>`).join("")}</div>
+    <div class="panel"><h3>마감 임박 (충원률 높은 순)</h3><ul class="mini">${nearFull.map(c =>
+      `<li><span title="${esc(c.title)}">${esc(c.title)}</span><b>${Math.round(c.fill * 100)}%</b></li>`).join("")}</ul></div>
+  </div>`;
+}
+
+// ── 시작: API가 있으면 실데이터, 없으면 내장 샘플 ──
+async function boot() {
+  try {
+    const r = await fetch("/api/courses"); if (!r.ok) throw 0;
+    courses = await r.json(); API = true;
+    document.getElementById("saved-note").textContent = "취향과 찜은 서버에 저장됩니다.";
+  } catch {
+    try { courses = JSON.parse(document.getElementById("sample-data").textContent); } catch { courses = []; }
+  }
+  if (courses.some(c => c.is_sample)) document.getElementById("mode-banner").hidden = false;
+  initPanel();
+  document.querySelectorAll(".tab").forEach(t => t.onclick = () => { tab = t.dataset.tab; render(); });
+  ["q", "f-program", "sort"].forEach(id => document.getElementById(id).addEventListener("input", render));
+  render();
+}
+boot();
+</script>
