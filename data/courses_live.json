@@ -1441,11 +1441,11 @@
   "cost": 11434500,
   "real_cost": 11434500,
   "capacity": 20,
-  "registered": 5,
+  "registered": 6,
   "empl_rate3": 70.0,
   "empl_rate6": null,
   "empl_source": "이전 1개 회차 평균(수료 11명)",
-  "satisfaction": 86.2,
+  "satisfaction": 87.2,
   "grade": "",
   "tags": [],
   "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20250000543125&tracseTme=6&crseTracseSe=C0061&trainstCstmrId=500020043348",
@@ -1506,7 +1506,7 @@
   "empl_rate3": 25.0,
   "empl_rate6": 58.3,
   "empl_source": "이전 1개 회차 평균(수료 15명)",
-  "satisfaction": 84.9,
+  "satisfaction": 85.3,
   "grade": "",
   "tags": [
    "data",
@@ -1784,7 +1784,7 @@
   "cost": 7695600,
   "real_cost": 7695600,
   "capacity": 25,
-  "registered": 19,
+  "registered": 21,
   "empl_rate3": 26.4,
   "empl_rate6": 45.9,
   "empl_source": "이전 12개 회차 평균(수료 263명)",
@@ -1942,7 +1942,7 @@
   "cost": 7695600,
   "real_cost": 7695600,
   "capacity": 25,
-  "registered": 20,
+  "registered": 21,
   "empl_rate3": 26.4,
   "empl_rate6": 45.9,
   "empl_source": "이전 12개 회차 평균(수료 263명)",
@@ -2200,7 +2200,7 @@
   "empl_rate3": 58.8,
   "empl_rate6": null,
   "empl_source": "이전 2개 회차 평균(수료 19명)",
-  "satisfaction": 94.0,
+  "satisfaction": 94.4,
   "grade": "",
   "tags": [
    "ai",
@@ -2291,7 +2291,7 @@
   "capacity": 50,
   "registered": 0,
   "empl_rate3": 23.392,
-  "empl_rate6": 29.24,
+  "empl_rate6": 29.532,
   "empl_source": null,
   "satisfaction": 92.9,
   "grade": "",
@@ -2433,6 +2433,39 @@
   "first_seen_at": "2026-10-08T10:53:49+00:00"
  },
  {
+  "course_id": "AIG20250000501479",
+  "round": "9",
+  "program": "C0104",
+  "title": "심화_생성형 AI와 AWS 클라우드를 활용한 풀스택 & 자동화 실무 개발",
+  "org_name": "두드림컴퓨터학원",
+  "inst_id": "500020055633",
+  "ncs_cd": "20010202",
+  "region": "경기 성남시 분당구",
+  "address": "경기 성남시 분당구",
+  "mode": "집체",
+  "start_date": "2026-10-12",
+  "end_date": "2026-11-24",
+  "hours": null,
+  "cost": 5082880,
+  "real_cost": 5082880,
+  "capacity": 20,
+  "registered": 0,
+  "empl_rate3": 29.1,
+  "empl_rate6": 66.7,
+  "empl_source": "이전 2개 회차 평균(수료 10명)",
+  "satisfaction": 92.3,
+  "grade": "",
+  "tags": [
+   "ai",
+   "web",
+   "cloud"
+  ],
+  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20250000501479&tracseTme=9&crseTracseSe=C0061&trainstCstmrId=500020055633",
+  "status": "모집중",
+  "is_sample": 0,
+  "first_seen_at": "2026-10-09T00:56:42+00:00"
+ },
+ {
   "course_id": "AIG20240000501198",
   "round": "8",
   "program": "C0104",
@@ -2453,7 +2486,7 @@
   "empl_rate3": 23.7,
   "empl_rate6": 58.3,
   "empl_source": "이전 5개 회차 평균(수료 66명)",
-  "satisfaction": 88.2,
+  "satisfaction": 88.3,
   "grade": "",
   "tags": [
    "web"
@@ -3022,7 +3055,7 @@
   "empl_rate3": null,
   "empl_rate6": null,
   "empl_source": null,
-  "satisfaction": 90.3,
+  "satisfaction": 91.0,
   "grade": "",
   "tags": [
    "data",
@@ -3051,8 +3084,8 @@
   "real_cost": 150000,
   "capacity": 25,
   "registered": 0,
-  "empl_rate3": 12.766,
-  "empl_rate6": 14.894,
+  "empl_rate3": 12.5,
+  "empl_rate6": 14.583,
   "empl_source": null,
   "satisfaction": 85.7,
   "grade": "",
@@ -3079,7 +3112,7 @@
   "cost": 490000,
   "real_cost": 490000,
   "capacity": 100,
-  "registered": 5,
+  "registered": 7,
   "empl_rate3": 10.0,
   "empl_rate6": null,
   "empl_source": null,
@@ -3174,7 +3207,7 @@
   "real_cost": 205700,
   "capacity": 25,
   "registered": 0,
-  "empl_rate3": 30.0,
+  "empl_rate3": 27.273,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 64.3,
@@ -3299,7 +3332,7 @@
   "cost": 490000,
   "real_cost": 490000,
   "capacity": 100,
-  "registered": 6,
+  "registered": 7,
   "empl_rate3": 18.462,
   "empl_rate6": 20.0,
   "empl_source": null,
@@ -3334,7 +3367,7 @@
   "empl_rate3": null,
   "empl_rate6": null,
   "empl_source": null,
-  "satisfaction": 89.3,
+  "satisfaction": 89.9,
   "grade": "",
   "tags": [
    "ai"
@@ -3468,6 +3501,39 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T10:53:49+00:00"
+ },
+ {
+  "course_id": "AIG20250000501479",
+  "round": "8",
+  "program": "C0104",
+  "title": "심화_생성형 AI와 AWS 클라우드를 활용한 풀스택 & 자동화 실무 개발",
+  "org_name": "두드림컴퓨터학원",
+  "inst_id": "500020055633",
+  "ncs_cd": "20010202",
+  "region": "경기 성남시 분당구",
+  "address": "경기 성남시 분당구",
+  "mode": "집체",
+  "start_date": "2026-10-13",
+  "end_date": "2026-11-25",
+  "hours": null,
+  "cost": 5082880,
+  "real_cost": 5082880,
+  "capacity": 20,
+  "registered": 0,
+  "empl_rate3": 29.1,
+  "empl_rate6": 66.7,
+  "empl_source": "이전 2개 회차 평균(수료 10명)",
+  "satisfaction": 92.3,
+  "grade": "",
+  "tags": [
+   "ai",
+   "web",
+   "cloud"
+  ],
+  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20250000501479&tracseTme=8&crseTracseSe=C0061&trainstCstmrId=500020055633",
+  "status": "모집중",
+  "is_sample": 0,
+  "first_seen_at": "2026-10-09T00:56:42+00:00"
  },
  {
   "course_id": "AIG20240000459129",
@@ -4092,7 +4158,7 @@
   "empl_rate3": 13.58,
   "empl_rate6": null,
   "empl_source": null,
-  "satisfaction": 88.5,
+  "satisfaction": 88.6,
   "grade": "",
   "tags": [
    "ai"
@@ -4697,6 +4763,39 @@
  },
  {
   "course_id": "AIG20250000501479",
+  "round": "7",
+  "program": "C0104",
+  "title": "심화_생성형 AI와 AWS 클라우드를 활용한 풀스택 & 자동화 실무 개발",
+  "org_name": "두드림컴퓨터학원",
+  "inst_id": "500020055633",
+  "ncs_cd": "20010202",
+  "region": "경기 성남시 분당구",
+  "address": "경기 성남시 분당구",
+  "mode": "집체",
+  "start_date": "2026-10-14",
+  "end_date": "2026-11-26",
+  "hours": null,
+  "cost": 5082880,
+  "real_cost": 5082880,
+  "capacity": 20,
+  "registered": 0,
+  "empl_rate3": 29.1,
+  "empl_rate6": 66.7,
+  "empl_source": "이전 2개 회차 평균(수료 10명)",
+  "satisfaction": 92.3,
+  "grade": "",
+  "tags": [
+   "ai",
+   "web",
+   "cloud"
+  ],
+  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20250000501479&tracseTme=7&crseTracseSe=C0061&trainstCstmrId=500020055633",
+  "status": "모집중",
+  "is_sample": 0,
+  "first_seen_at": "2026-10-09T00:56:42+00:00"
+ },
+ {
+  "course_id": "AIG20250000501479",
   "round": "6",
   "program": "C0104",
   "title": "심화_생성형 AI와 AWS 클라우드를 활용한 풀스택 & 자동화 실무 개발",
@@ -4815,7 +4914,7 @@
   "empl_rate3": 22.9,
   "empl_rate6": 43.0,
   "empl_source": "이전 25개 회차 평균(수료 535명)",
-  "satisfaction": 84.4,
+  "satisfaction": 84.5,
   "grade": "",
   "tags": [
    "ai"
@@ -5163,8 +5262,8 @@
   "real_cost": 200000,
   "capacity": 1000,
   "registered": 1,
-  "empl_rate3": 8.468,
-  "empl_rate6": 18.548,
+  "empl_rate3": 8.527,
+  "empl_rate6": 17.829,
   "empl_source": null,
   "satisfaction": 80.0,
   "grade": "",
@@ -5509,8 +5608,8 @@
   "real_cost": 150000,
   "capacity": 25,
   "registered": 0,
-  "empl_rate3": 12.766,
-  "empl_rate6": 14.894,
+  "empl_rate3": 12.5,
+  "empl_rate6": 14.583,
   "empl_source": null,
   "satisfaction": 85.7,
   "grade": "",
@@ -5538,7 +5637,7 @@
   "real_cost": 205700,
   "capacity": 25,
   "registered": 0,
-  "empl_rate3": 30.0,
+  "empl_rate3": 27.273,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 64.3,
@@ -6921,7 +7020,7 @@
   "capacity": 50,
   "registered": 0,
   "empl_rate3": 23.392,
-  "empl_rate6": 29.24,
+  "empl_rate6": 29.532,
   "empl_source": null,
   "satisfaction": 92.9,
   "grade": "",
@@ -7050,7 +7149,7 @@
   "empl_rate3": 39.2,
   "empl_rate6": 61.6,
   "empl_source": "이전 6개 회차 평균(수료 124명)",
-  "satisfaction": 93.5,
+  "satisfaction": 93.6,
   "grade": "",
   "tags": [
    "ai",
@@ -7436,7 +7535,7 @@
   "empl_rate3": 39.2,
   "empl_rate6": 61.6,
   "empl_source": "이전 6개 회차 평균(수료 124명)",
-  "satisfaction": 93.5,
+  "satisfaction": 93.6,
   "grade": "",
   "tags": [
    "ai",
@@ -7470,7 +7569,7 @@
   "empl_rate3": null,
   "empl_rate6": null,
   "empl_source": null,
-  "satisfaction": 89.3,
+  "satisfaction": 89.9,
   "grade": "",
   "tags": [
    "ai"
@@ -7533,7 +7632,7 @@
   "empl_rate3": 37.5,
   "empl_rate6": null,
   "empl_source": "이전 1개 회차 평균(수료 10명)",
-  "satisfaction": 77.0,
+  "satisfaction": 81.3,
   "grade": "",
   "tags": [
    "cloud"
@@ -8005,7 +8104,7 @@
   "empl_rate3": 22.34,
   "empl_rate6": 18.085,
   "empl_source": null,
-  "satisfaction": 94.0,
+  "satisfaction": 93.3,
   "grade": "",
   "tags": [
    "ai"
@@ -8068,7 +8167,7 @@
   "empl_rate3": 40.625,
   "empl_rate6": null,
   "empl_source": null,
-  "satisfaction": 89.8,
+  "satisfaction": 90.0,
   "grade": "",
   "tags": [
    "data",
@@ -8100,7 +8199,7 @@
   "empl_rate3": 13.58,
   "empl_rate6": null,
   "empl_source": null,
-  "satisfaction": 88.5,
+  "satisfaction": 88.6,
   "grade": "",
   "tags": [
    "ai"
@@ -8597,7 +8696,7 @@
   "empl_rate3": 12.5,
   "empl_rate6": 16.667,
   "empl_source": null,
-  "satisfaction": 87.2,
+  "satisfaction": 87.3,
   "grade": "",
   "tags": [
    "web"
@@ -9099,7 +9198,7 @@
   "empl_rate3": 39.2,
   "empl_rate6": 61.6,
   "empl_source": "이전 6개 회차 평균(수료 124명)",
-  "satisfaction": 93.5,
+  "satisfaction": 93.6,
   "grade": "",
   "tags": [
    "ai",
@@ -9228,7 +9327,7 @@
   "empl_rate3": 37.5,
   "empl_rate6": 62.5,
   "empl_source": "이전 1개 회차 평균(수료 14명)",
-  "satisfaction": 92.9,
+  "satisfaction": 95.0,
   "grade": "",
   "tags": [
    "cloud"
@@ -10976,7 +11075,7 @@
   "empl_rate3": 22.34,
   "empl_rate6": 18.085,
   "empl_source": null,
-  "satisfaction": 94.0,
+  "satisfaction": 93.3,
   "grade": "",
   "tags": [
    "ai"
@@ -11790,7 +11889,7 @@
   "empl_rate3": 31.5,
   "empl_rate6": 70.3,
   "empl_source": "이전 5개 회차 평균(수료 58명)",
-  "satisfaction": 81.0,
+  "satisfaction": 80.5,
   "grade": "",
   "tags": [
    "ai"
@@ -11913,7 +12012,7 @@
   "empl_rate3": 15.4,
   "empl_rate6": null,
   "empl_source": "이전 1개 회차 평균(수료 15명)",
-  "satisfaction": 72.4,
+  "satisfaction": 72.1,
   "grade": "",
   "tags": [
    "design",
@@ -12071,7 +12170,7 @@
   "empl_rate3": 17.6,
   "empl_rate6": null,
   "empl_source": "이전 1개 회차 평균(수료 18명)",
-  "satisfaction": 81.7,
+  "satisfaction": 83.8,
   "grade": "",
   "tags": [
    "web"
@@ -12102,7 +12201,7 @@
   "empl_rate3": 50.0,
   "empl_rate6": null,
   "empl_source": "이전 1개 회차 평균(수료 9명)",
-  "satisfaction": 84.1,
+  "satisfaction": 80.6,
   "grade": "",
   "tags": [
    "web"
@@ -12228,7 +12327,7 @@
   "empl_rate3": 33.3,
   "empl_rate6": null,
   "empl_source": "이전 1개 회차 평균(수료 11명)",
-  "satisfaction": 53.6,
+  "satisfaction": 60.0,
   "grade": "",
   "tags": [
    "pm"
@@ -12350,7 +12449,7 @@
   "empl_rate3": 31.5,
   "empl_rate6": 70.3,
   "empl_source": "이전 5개 회차 평균(수료 58명)",
-  "satisfaction": 81.0,
+  "satisfaction": 80.5,
   "grade": "",
   "tags": [
    "ai"
@@ -13356,7 +13455,7 @@
   "empl_rate3": 22.34,
   "empl_rate6": 18.085,
   "empl_source": null,
-  "satisfaction": 94.0,
+  "satisfaction": 93.3,
   "grade": "",
   "tags": [
    "ai"
@@ -13891,7 +13990,7 @@
   "empl_rate3": 58.8,
   "empl_rate6": null,
   "empl_source": "이전 2개 회차 평균(수료 19명)",
-  "satisfaction": 93.6,
+  "satisfaction": 94.4,
   "grade": "",
   "tags": [
    "ai",
@@ -14418,7 +14517,7 @@
   "empl_rate3": 17.6,
   "empl_rate6": null,
   "empl_source": "이전 1개 회차 평균(수료 18명)",
-  "satisfaction": 81.7,
+  "satisfaction": 83.8,
   "grade": "",
   "tags": [
    "web"
@@ -14449,7 +14548,7 @@
   "empl_rate3": 15.4,
   "empl_rate6": null,
   "empl_source": "이전 1개 회차 평균(수료 15명)",
-  "satisfaction": 72.4,
+  "satisfaction": 72.1,
   "grade": "",
   "tags": [
    "design",
@@ -14481,7 +14580,7 @@
   "empl_rate3": 39.2,
   "empl_rate6": 61.6,
   "empl_source": "이전 6개 회차 평균(수료 124명)",
-  "satisfaction": 93.5,
+  "satisfaction": 93.6,
   "grade": "",
   "tags": [
    "ai",
@@ -14548,7 +14647,7 @@
   "empl_rate3": 33.3,
   "empl_rate6": null,
   "empl_source": "이전 1개 회차 평균(수료 11명)",
-  "satisfaction": 53.6,
+  "satisfaction": 60.0,
   "grade": "",
   "tags": [
    "pm"
@@ -14734,7 +14833,7 @@
   "empl_rate3": 50.0,
   "empl_rate6": null,
   "empl_source": "이전 1개 회차 평균(수료 9명)",
-  "satisfaction": 84.1,
+  "satisfaction": 80.6,
   "grade": "",
   "tags": [
    "web"
@@ -15046,7 +15145,7 @@
   "empl_rate3": 26.7,
   "empl_rate6": 60.2,
   "empl_source": "이전 8개 회차 평균(수료 186명)",
-  "satisfaction": 87.1,
+  "satisfaction": 87.3,
   "grade": "",
   "tags": [
    "web",
@@ -15141,7 +15240,7 @@
   "empl_rate3": 24.9,
   "empl_rate6": 54.3,
   "empl_source": "이전 7개 회차 평균(수료 136명)",
-  "satisfaction": 77.5,
+  "satisfaction": 77.8,
   "grade": "",
   "tags": [
    "data",
@@ -15239,7 +15338,7 @@
   "empl_rate3": null,
   "empl_rate6": null,
   "empl_source": null,
-  "satisfaction": 88.3,
+  "satisfaction": 89.0,
   "grade": "",
   "tags": [
    "ai"
@@ -17756,7 +17855,7 @@
   "empl_rate3": 39.2,
   "empl_rate6": 61.6,
   "empl_source": "이전 6개 회차 평균(수료 124명)",
-  "satisfaction": 93.5,
+  "satisfaction": 93.6,
   "grade": "",
   "tags": [
    "ai",
@@ -17819,7 +17918,7 @@
   "empl_rate3": 58.8,
   "empl_rate6": null,
   "empl_source": "이전 2개 회차 평균(수료 19명)",
-  "satisfaction": 93.6,
+  "satisfaction": 94.4,
   "grade": "",
   "tags": [
    "ai",
@@ -19462,5 +19561,36 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00"
+ },
+ {
+  "course_id": "AIG20250000539881",
+  "round": "80",
+  "program": "C0105",
+  "title": "반도체 핵심공정 온라인 실습 입문: 소자부터 증착까지",
+  "org_name": "윈스펙원격평생교육원",
+  "inst_id": "500034225481",
+  "ncs_cd": "19030601",
+  "region": "원격",
+  "address": "서울 강남구",
+  "mode": "원격",
+  "start_date": "2027-04-07",
+  "end_date": "2027-05-07",
+  "hours": null,
+  "cost": 423500,
+  "real_cost": 423500,
+  "capacity": 50,
+  "registered": 0,
+  "empl_rate3": 12.587,
+  "empl_rate6": 19.231,
+  "empl_source": null,
+  "satisfaction": 86.1,
+  "grade": "",
+  "tags": [
+   "manufacturing"
+  ],
+  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20250000539881&tracseTme=80&crseTracseSe=C0105&trainstCstmrId=500034225481",
+  "status": "모집중",
+  "is_sample": 0,
+  "first_seen_at": "2026-10-09T00:56:42+00:00"
  }
 ]
