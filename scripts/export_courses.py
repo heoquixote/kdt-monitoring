@@ -16,7 +16,7 @@ load_env()
 out = sys.argv[1] if len(sys.argv) > 1 else os.path.join(root, "data", "courses_live.json")
 with db.connect() as con:
     rows = [r for r in db.load_courses(con) if not r["is_sample"]]
-cols = db.COURSE_COLS + ["first_seen_at"]
+cols = db.COURSE_COLS + ["first_seen_at", "last_seen_at"]
 courses = [{k: r[k] for k in cols} for r in rows]
 text = json.dumps(courses, ensure_ascii=False, indent=1)
 keys = [os.environ[k] for k in ("WORK24_API_KEY", "WORK24_CODE_KEY") if os.environ.get(k)]

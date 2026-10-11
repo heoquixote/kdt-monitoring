@@ -31,7 +31,7 @@ def score_course(c: dict, p: dict, stats, today: date) -> tuple[float, list[str]
     parts, reasons = {}, []
 
     # interest: 태그 일치 비율 + 자유 키워드 부분일치 보너스
-    hit = interests & set(c.get("tags") or [])
+    hit = interests & set(c.get("tags") or ["etc"])  # 태그 없는 옛 데이터는 "기타"로 본다
     kw_hit = [k for k in keywords if k in c["title"].lower()]
     parts["interest"] = min(1.0, (len(hit) / len(interests) if interests else 0.3) + 0.3 * len(kw_hit))
     if hit:

@@ -14,6 +14,16 @@ def test_derive_tags():
     assert "ai" in derive_tags("LLM 서비스 개발자 과정")
 
 
+def test_derive_tags_fallback_and_new_keywords():
+    assert derive_tags("[두산로보틱스] 지능형 로보틱스 엔지니어") == ["manufacturing"]
+    assert derive_tags("에코업 탄소중립 실무 프로젝트 전문가 양성과정") == ["etc"]
+
+
+def test_untagged_course_matches_etc_interest():
+    c = {**SAMPLE[0], "tags": []}
+    assert recommend([c], {"interests": ["etc"]}, k=1, today=TODAY)[0]["score_parts"]["interest"] == 1.0
+
+
 def test_interest_drives_ranking():
     recs = recommend(SAMPLE, {"interests": ["security"]}, k=2, today=TODAY)
     assert all("security" in r["tags"] for r in recs)

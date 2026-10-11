@@ -5,17 +5,19 @@
 """
 
 TAGS: dict[str, dict] = {
-    "data": {"label": "데이터분석", "kw": ["데이터", "분석", "빅데이터", "SQL", "태블로", "Tableau", "BI", "시각화", "통계"]},
-    "ai": {"label": "AI·머신러닝", "kw": ["AI", "인공지능", "머신러닝", "딥러닝", "LLM", "생성형", "MLOps", "컴퓨터비전", "자연어"]},
-    "web": {"label": "웹개발", "kw": ["웹", "풀스택", "프론트엔드", "백엔드", "React", "Spring", "자바", "Java", "Node", "Django"]},
+    "data": {"label": "데이터분석", "kw": ["데이터", "분석", "빅데이터", "SQL", "태블로", "Tableau", "BI", "시각화", "통계", "Data"]},
+    "ai": {"label": "AI·머신러닝", "kw": ["AI", "인공지능", "머신러닝", "딥러닝", "LLM", "생성형", "MLOps", "컴퓨터비전", "자연어", "프롬프트", "에이전트", "Agent"]},
+    "web": {"label": "웹개발", "kw": ["웹", "풀스택", "Full-stack", "Fullstack", "프론트엔드", "백엔드", "React", "Spring", "자바", "Java", "Node", "Django"]},
     "mobile": {"label": "모바일앱", "kw": ["모바일", "앱", "Android", "iOS", "Flutter", "Kotlin", "Swift"]},
     "cloud": {"label": "클라우드·DevOps", "kw": ["클라우드", "AWS", "Azure", "DevOps", "쿠버네티스", "Kubernetes", "인프라", "MSA"]},
     "security": {"label": "정보보안", "kw": ["보안", "해킹", "침해", "시큐어", "화이트해커"]},
-    "game": {"label": "게임·XR", "kw": ["게임", "유니티", "Unity", "언리얼", "Unreal", "메타버스", "XR", "VR"]},
+    "game": {"label": "게임·XR·콘텐츠", "kw": ["게임", "유니티", "Unity", "언리얼", "Unreal", "메타버스", "XR", "VR", "버추얼", "이머시브", "미디어아트", "콘텐츠"]},
     "design": {"label": "UX·디자인", "kw": ["UX", "UI", "디자인", "피그마", "Figma"]},
-    "manufacturing": {"label": "제조DX·반도체", "kw": ["반도체", "스마트팩토리", "스마트공장", "제조", "IoT", "임베디드", "PLC", "자율주행", "로봇"]},
+    "manufacturing": {"label": "제조DX·반도체", "kw": ["반도체", "스마트팩토리", "스마트공장", "제조", "IoT", "임베디드", "PLC", "자율주행", "로봇", "로보틱스", "SoC", "카티아", "CATIA", "솔리드웍스", "3D프린", "3D모델링", "디지털트윈", "드론"]},
     "pm": {"label": "기획·PM", "kw": ["기획", "PM", "PO", "서비스기획", "프로덕트"]},
     "blockchain": {"label": "블록체인·핀테크", "kw": ["블록체인", "핀테크", "Web3"]},
+    # 어느 키워드에도 걸리지 않는 과정(바이오·탄소중립·스마트팜 등)이 관심 분야 선택에서 빠지지 않게 묶는 자리
+    "etc": {"label": "기타", "kw": []},
 }
 
 # NCS 대분류 20(정보통신) 중분류 → 태그 보조 매핑 (제목 매칭이 비었을 때만 사용)
@@ -29,4 +31,4 @@ def derive_tags(title: str, ncs_cd: str | None = None) -> list[str]:
         hint = NCS_HINT.get(ncs_cd[:6])
         if hint:
             tags.append(hint)
-    return tags
+    return tags or ["etc"]
