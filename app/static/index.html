@@ -6,22 +6,24 @@
 /* Layout: 좌측 취향 패널(접힘 가능) + 우측 탭(추천 / 전체 / 모니터링). 모바일은 한 열. */
 :root {
   --bg: #f5f7f6; --surface: #ffffff; --fg: #17211f; --muted: #5b6a66; --line: #dbe3e0;
-  --accent: #0f6b5c; --accent-soft: #e2f1ed; --warn: #b45309; --warn-soft: #fdf0e1; --good: #15803d;
+  --accent: #0f6b5c; --accent-soft: #e2f1ed; --warn: #b45309; --warn-soft: #fdf0e1; --good: #15803d; --bad: #b42318; --bad-soft: #fdecea;
   --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
   --font-num: "IBM Plex Mono", ui-monospace, monospace;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --bg: #0f1514; --surface: #172120; --fg: #e4ece9; --muted: #93a39e; --line: #2a3835;
-  --accent: #4fc2ab; --accent-soft: #1b3531; --warn: #f0a24d; --warn-soft: #3a2a17; --good: #5ad08a; color-scheme: dark } }
+  --accent: #4fc2ab; --accent-soft: #1b3531; --warn: #f0a24d; --warn-soft: #3a2a17; --good: #5ad08a; --bad: #f2867a; --bad-soft: #3b1d1a; color-scheme: dark } }
 :root[data-theme="dark"] {
   --bg: #0f1514; --surface: #172120; --fg: #e4ece9; --muted: #93a39e; --line: #2a3835;
-  --accent: #4fc2ab; --accent-soft: #1b3531; --warn: #f0a24d; --warn-soft: #3a2a17; --good: #5ad08a; color-scheme: dark }
+  --accent: #4fc2ab; --accent-soft: #1b3531; --warn: #f0a24d; --warn-soft: #3a2a17; --good: #5ad08a; --bad: #f2867a; --bad-soft: #3b1d1a; color-scheme: dark }
 * { box-sizing: border-box }
+[hidden] { display: none !important } /* .toolbar 등 display를 지정한 요소도 hidden 속성으로 숨겨지게 */
 body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 15px; line-height: 1.55; }
 .wrap { max-width: 1180px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 48px; }
 header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; margin-bottom: 18px; }
 h1 { font-size: 1.45rem; margin: 0; letter-spacing: -0.01em; text-wrap: balance }
 .sub { color: var(--muted); font-size: .88rem; margin: 2px 0 0 }
+.asof { font-size: .8rem; font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap }
 .banner { font-size: .82rem; color: var(--warn); background: var(--warn-soft); padding: 6px 10px; border-radius: 6px; }
 .grid { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 20px; align-items: start; }
 @media (max-width: 860px) { .grid { grid-template-columns: minmax(0, 1fr) } }
@@ -33,6 +35,7 @@ legend { font-size: .76rem; font-weight: 600; letter-spacing: .04em; color: var(
 .chips { display: flex; flex-wrap: wrap; gap: 6px }
 .chip { font: inherit; font-size: .82rem; border: 1px solid var(--line); background: transparent; color: var(--fg); padding: 4px 10px; border-radius: 999px; cursor: pointer; }
 .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+.chip .cn { font-family: var(--font-num); font-size: .72rem; opacity: .7; margin-left: 4px }
 .chip:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
 .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px }
 label.f { display: grid; gap: 4px; font-size: .78rem; color: var(--muted) }
@@ -55,11 +58,18 @@ input, select { font: inherit; font-size: .88rem; color: var(--fg); background: 
 .badge.basic { background: var(--warn-soft); color: var(--warn) }
 .meta { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: .84rem; color: var(--muted) }
 .meta b { color: var(--fg); font-weight: 500; font-family: var(--font-num); font-size: .82rem }
-.stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; align-items: end }
-.stat { display: grid; gap: 3px; font-size: .74rem; color: var(--muted) }
-.stat strong { font-family: var(--font-num); font-size: .9rem; color: var(--fg); font-weight: 500 }
+.top .grow { flex: 1 }
+.dday { font-size: .76rem; font-weight: 600; font-variant-numeric: tabular-nums; padding: 2px 8px; border-radius: 4px; white-space: nowrap; background: var(--bg); color: var(--muted); border: 1px solid var(--line) }
+.dday.soon { background: var(--bad-soft); color: var(--bad); border-color: transparent }
+.dday.near { background: var(--warn-soft); color: var(--warn); border-color: transparent }
+.kv { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px }
+.kv > div { border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; display: grid; gap: 2px; align-content: start; min-width: 0; font-size: .74rem; color: var(--muted) }
+.kv strong { font-family: var(--font-num); font-size: .98rem; color: var(--fg); font-weight: 500; font-variant-numeric: tabular-nums }
+.kv strong.word { font-family: var(--font-body); font-size: .9rem }
+.kv small { font-size: .72rem; line-height: 1.35 }
+.kv .bar { margin-top: 2px }
 .bar { height: 5px; background: var(--line); border-radius: 3px; overflow: hidden }
-.bar i { display: block; height: 100%; background: var(--accent) } .bar i.hot { background: var(--warn) }
+.bar i { display: block; height: 100%; background: var(--accent) } .bar i.hot { background: var(--warn) } .bar i.over { background: var(--bad) }
 .foot { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between }
 .reasons { display: flex; flex-wrap: wrap; gap: 6px }
 .reason { font-size: .76rem; color: var(--accent); border: 1px solid var(--accent-soft); background: var(--accent-soft); padding: 1px 8px; border-radius: 999px }
@@ -73,13 +83,13 @@ input, select { font: inherit; font-size: .88rem; color: var(--fg); background: 
 .kpis { display: flex; gap: 24px; flex-wrap: wrap }
 .kpi strong { display: block; font-family: var(--font-num); font-size: 1.6rem; font-weight: 500 }
 .kpi span { font-size: .78rem; color: var(--muted) }
-.hbar { display: grid; grid-template-columns: 96px minmax(0, 1fr) 28px; gap: 8px; align-items: center; font-size: .82rem; margin-bottom: 6px }
+.hbar { display: grid; grid-template-columns: 120px minmax(0, 1fr) 28px; gap: 8px; align-items: center; font-size: .82rem; margin-bottom: 6px }
 .hbar .bar { height: 8px } .hbar em { font-style: normal; font-family: var(--font-num); font-size: .78rem; text-align: right; color: var(--muted) }
-.mini { font-size: .84rem; display: grid; gap: 6px; margin: 0; padding: 0; list-style: none }
+.mini { font-size: .84rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 6px; margin: 0; padding: 0; list-style: none }
 .mini li { display: flex; justify-content: space-between; gap: 10px } .mini li span:first-child { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
 .mini b { font-family: var(--font-num); font-weight: 500; color: var(--warn) }
 footer { margin-top: 28px; font-size: .78rem; color: var(--muted) }
-@media (max-width: 520px) { .stats { grid-template-columns: 1fr 1fr } }
+@media (max-width: 620px) { .kv { grid-template-columns: 1fr 1fr } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important } }
 </style>
 
@@ -89,6 +99,7 @@ footer { margin-top: 28px; font-size: .78rem; color: var(--muted) }
       <h1>KDT 과정 나침반</h1>
       <p class="sub">모집 중인 K-디지털 트레이닝 · K-디지털 기초역량훈련 과정을 모으고, 내 취향에 맞춰 골라 드립니다.</p>
     </div>
+    <span class="asof" id="asof" hidden></span>
     <span class="banner" id="mode-banner" hidden>샘플 데이터로 보는 데모입니다. 과정·기관은 가상입니다.</span>
   </header>
 
@@ -125,10 +136,13 @@ footer { margin-top: 28px; font-size: .78rem; color: var(--muted) }
 </div>
 
 <script id="sample-data" type="application/json">__SAMPLE_DATA__</script>
+<script id="data-as-of" type="text/plain">__DATA_AS_OF__</script>
 <script>
 const TAGS = { data: "데이터분석", ai: "AI·머신러닝", web: "웹개발", mobile: "모바일앱", cloud: "클라우드·DevOps",
-  security: "정보보안", game: "게임·XR", design: "UX·디자인", manufacturing: "제조DX·반도체", pm: "기획·PM", blockchain: "블록체인·핀테크" };
-const REGIONS = ["서울", "경기", "인천", "부산", "대구", "광주", "대전"];
+  security: "정보보안", game: "게임·XR·콘텐츠", design: "UX·디자인", manufacturing: "제조DX·반도체", pm: "기획·PM", blockchain: "블록체인·핀테크", etc: "기타" };
+let REGIONS = []; // 수집 데이터의 시도 목록(과정 많은 순)으로 boot()에서 채운다
+// 사업별 본인 부담. KDT는 훈련비 전액 국비 지원이라 0원. 기초역량은 자부담 비율을 확인하지 못해 훈련비만 보여 준다.
+const SELF_PAY_ZERO = new Set(["C0104"]);
 const MODES = ["집체", "원격"];
 const PROGRAM = { C0104: "K-DT", C0105: "기초역량" };
 // 검색용 사업 별칭: K-뉴딜(디지털 뉴딜) 사업이 지금의 K-DT·기초역량이라 둘 다 'K-뉴딜'로 찾히게 한다.
@@ -198,11 +212,12 @@ function setFb(c, action) {
 }
 
 // ── 취향 패널 ──
-function chipGroup(el, items, labelOf, field) {
+function chipGroup(el, items, labelOf, field, countOf) {
   el.innerHTML = "";
   for (const it of items) {
     const b = document.createElement("button");
     b.type = "button"; b.className = "chip"; b.textContent = labelOf(it);
+    if (countOf) { const n = document.createElement("span"); n.className = "cn"; n.textContent = countOf(it); b.append(n); }
     b.setAttribute("aria-pressed", profile[field].includes(it));
     b.onclick = () => {
       profile[field] = profile[field].includes(it) ? profile[field].filter(x => x !== it) : [...profile[field], it];
@@ -212,8 +227,12 @@ function chipGroup(el, items, labelOf, field) {
   }
 }
 function initPanel() {
-  chipGroup(document.getElementById("f-interests"), Object.keys(TAGS), k => TAGS[k], "interests");
-  chipGroup(document.getElementById("f-regions"), REGIONS, x => x, "regions");
+  const tagN = {}, sidoN = {};
+  courses.forEach(c => { c.tags.forEach(t => tagN[t] = (tagN[t] || 0) + 1); if (c.mode !== "원격") { const s = sido(c); if (s) sidoN[s] = (sidoN[s] || 0) + 1; } });
+  // 저장된 취향의 지역이 오늘 데이터에 없어도 칩으로 남겨 해제할 수 있게 한다
+  REGIONS = [...new Set([...Object.keys(sidoN).sort((a, b) => sidoN[b] - sidoN[a]), ...profile.regions])];
+  chipGroup(document.getElementById("f-interests"), Object.keys(TAGS).filter(k => tagN[k] || profile.interests.includes(k)), k => TAGS[k], "interests", k => tagN[k] || 0);
+  chipGroup(document.getElementById("f-regions"), REGIONS, x => x, "regions", x => sidoN[x] || 0);
   chipGroup(document.getElementById("f-modes"), MODES, x => x === "집체" ? "오프라인(집체)" : "온라인(원격)", "modes");
   const s = document.getElementById("f-start"), w = document.getElementById("f-weeks"), k = document.getElementById("f-keywords");
   s.value = profile.start_after || ""; w.value = profile.max_weeks || ""; k.value = profile.keywords.join(", ");
@@ -225,30 +244,47 @@ function initPanel() {
 // ── 렌더링 ──
 const won = n => n == null ? "-" : n >= 10000 ? `${Math.round(n / 10000).toLocaleString()}만원` : `${n.toLocaleString()}원`;
 const md = d => d ? d.slice(5).replace("-", ".") : "-";
+const sido = c => (c.region || "").split(" ")[0];
 const esc = s => String(s ?? "").replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
 
-function card(c, i) {
-  const fill = c.capacity ? Math.min(1, (c.registered || 0) / c.capacity) : 0;
+function card(c, i, today) {
+  const reg = c.registered || 0, fill = c.capacity ? reg / c.capacity : 0;
   const weeks = c.start_date && c.end_date ? Math.round(dayDiff(new Date(c.end_date), new Date(c.start_date)) / 7) : null;
+  const days = c.start_date ? dayDiff(new Date(c.start_date), today) : null;
+  const dday = days == null ? "" : days <= 0 ? "오늘 개강" : `D-${days} · ${md(c.start_date)} 개강`;
+  // 본인 부담: KDT는 0원을 크게, 지원액을 작게. 그 외 사업은 훈련비를 그대로 두고 자부담 확인을 안내
+  const pay = SELF_PAY_ZERO.has(c.program)
+    ? `<div>내 부담<strong>0원</strong><small>국비 지원 ${won(c.cost)}</small></div>`
+    : `<div>훈련비<strong>${won(c.cost)}</strong><small>자부담은 고용24에서 확인</small></div>`;
+  const sat = c.satisfaction != null ? `만족도 ${c.satisfaction.toFixed(1)}` : "";
+  const empl = c.empl_rate3 != null
+    ? `<div${c.empl_source ? ` title="${esc(c.empl_source)}"` : ""}>취업률(3개월)<strong>${c.empl_rate3.toFixed(1)}%</strong><small>${[c.empl_source ? "이전 회차 평균" : "", sat].filter(Boolean).join(" · ") || "&nbsp;"}</small></div>`
+    : `<div>취업률(3개월)<strong class="word">첫 회차</strong><small>${sat || "이전 기록 없음"}</small></div>`;
+  // 신청 0명은 원천 데이터에 아직 반영되지 않은 경우가 많아 막대 대신 정원만 보여 준다
+  const seat = reg > 0
+    ? `<div>신청<strong>${reg} / ${c.capacity ?? "-"}명</strong><small>${fill > 1 ? "정원 초과 · 대기 가능성" : fill >= .85 ? "마감 임박" : `충원 ${Math.round(fill * 100)}%`}</small>
+        <div class="bar"><i class="${fill > 1 ? "over" : fill >= .85 ? "hot" : ""}" style="width:${(Math.min(fill, 1) * 100).toFixed(0)}%"></i></div></div>`
+    : `<div>정원<strong>${c.capacity ?? "-"}명</strong><small>신청 현황 없음</small></div>`;
+  const reasons = (c.reasons || []).filter(r => !r.startsWith("개강 D-")); // D-day는 카드 첫 줄에 이미 표시
   const el = document.createElement("article");
   el.className = "card" + (fb[key(c)] === "dismiss" ? " dismissed" : "");
   el.innerHTML = `
     <div class="top">
       ${i != null ? `<span class="rank">${String(i + 1).padStart(2, "0")}</span>` : ""}
-      <h3 class="title" style="flex:1"><a href="${esc(c.link)}" target="_blank" rel="noopener">${esc(c.title)}</a></h3>
+      ${dday ? `<span class="dday ${days <= 7 ? "soon" : days <= 14 ? "near" : ""}">${dday}</span>` : ""}
       <span class="badge ${c.program === "C0105" ? "basic" : ""}">${PROGRAM[c.program] || c.program}</span>
+      <span class="grow"></span>
     </div>
-    <div class="meta"><span>${esc(c.org_name)}</span><span>${esc(c.region)}</span>
-      <span>개강 <b>${md(c.start_date)}</b> ~ <b>${md(c.end_date)}</b>${weeks ? ` (${weeks}주)` : ""}</span>
-      <span>훈련비 <b>${won(c.cost)}</b></span></div>
-    <div class="stats">
-      <div class="stat">충원률 <strong>${c.registered ?? "-"}/${c.capacity ?? "-"}명</strong>
-        <div class="bar"><i class="${fill >= .85 ? "hot" : ""}" style="width:${(fill * 100).toFixed(0)}%"></i></div></div>
-      <div class="stat"${c.empl_source ? ` title="${esc(c.empl_source)}"` : ""}>취업률(3개월)${c.empl_source ? " · 이전 회차" : ""} <strong>${c.empl_rate3 != null ? c.empl_rate3.toFixed(1) + "%" : "신규"}</strong></div>
-      <div class="stat">만족도 <strong>${c.satisfaction != null ? c.satisfaction.toFixed(1) : "-"}</strong></div>
+    <h3 class="title"><a href="${esc(c.link)}" target="_blank" rel="noopener">${esc(c.title)}</a></h3>
+    <div class="meta"><span>${esc(c.org_name)}</span><span>${esc(c.region)}</span><span>${c.mode === "원격" ? "온라인" : "오프라인"}</span></div>
+    <div class="kv">
+      ${pay}
+      <div>기간<strong>${weeks ? `${weeks}주` : "-"}</strong><small>${md(c.start_date)} ~ ${md(c.end_date)}</small></div>
+      ${empl}
+      ${seat}
     </div>
     <div class="foot">
-      <div class="reasons">${(c.reasons || []).map(r => `<span class="reason">${esc(r)}</span>`).join("")}</div>
+      <div class="reasons">${reasons.map(r => `<span class="reason">${esc(r)}</span>`).join("")}</div>
       <div class="acts">
         <button class="btn" data-a="save" aria-pressed="${fb[key(c)] === "save"}">${fb[key(c)] === "save" ? "찜함" : "찜"}</button>
         <button class="btn" data-a="dismiss" aria-pressed="${fb[key(c)] === "dismiss"}">관심 없음</button>
@@ -290,7 +326,8 @@ function render() {
     return;
   }
   const wrap = document.createElement("div"); wrap.className = "list";
-  list.forEach((c, i) => wrap.append(card(c, tab === "rec" ? i : null)));
+  const today = new Date(new Date().toDateString());
+  list.forEach((c, i) => wrap.append(card(c, tab === "rec" ? i : null, today)));
   view.append(wrap);
 }
 
@@ -300,7 +337,7 @@ function renderMon(view, all) {
   const max = Math.max(...tagRows.map(r => r[1]), 1);
   const today = new Date(new Date().toDateString());
   const soon = all.filter(c => { const d = dayDiff(new Date(c.start_date), today); return d >= 0 && d <= 14; }).length;
-  const nearFull = all.filter(c => c.capacity).map(c => ({ ...c, fill: (c.registered || 0) / c.capacity }))
+  const nearFull = all.filter(c => c.capacity && c.registered > 0).map(c => ({ ...c, fill: (c.registered || 0) / c.capacity }))
     .sort((a, b) => b.fill - a.fill).slice(0, 6);
   const kdt = all.filter(c => c.program === "C0104").length;
   view.innerHTML = `<div class="mon">
@@ -311,9 +348,22 @@ function renderMon(view, all) {
       <div class="kpi"><strong>${soon}</strong><span>2주 안에 개강</span></div></div></div>
     <div class="panel"><h3>분야별 과정 수</h3>${tagRows.map(([t, n]) =>
       `<div class="hbar"><span>${TAGS[t]}</span><div class="bar"><i style="width:${n / max * 100}%"></i></div><em>${n}</em></div>`).join("")}</div>
-    <div class="panel"><h3>마감 임박 (충원률 높은 순)</h3><ul class="mini">${nearFull.map(c =>
-      `<li><span title="${esc(c.title)}">${esc(c.title)}</span><b>${Math.round(c.fill * 100)}%</b></li>`).join("")}</ul></div>
+    <div class="panel"><h3>마감 임박 (충원률 높은 순)</h3>${nearFull.length ? `<ul class="mini">${nearFull.map(c =>
+      `<li><span title="${esc(c.title)}">${esc(c.title)}</span><b>${Math.round(c.fill * 100)}%</b></li>`).join("")}</ul>` : `<p class="saved-note">신청 인원이 집계된 과정이 아직 없습니다.</p>`}</div>
   </div>`;
+}
+
+// 데이터 기준 시각: 과정별 마지막 수집 시각 중 최신값(API) 또는 빌드 때 넣은 값(정적 배포). KST로 표시
+function showAsOf() {
+  const seen = courses.map(c => c.last_seen_at).filter(Boolean).sort().pop();
+  const baked = document.getElementById("data-as-of").textContent.trim();
+  const ts = seen || (baked.startsWith("__") ? "" : baked);
+  const t = Date.parse(ts);
+  if (!ts || isNaN(t)) return;
+  const k = new Date(t + 9 * 36e5), p = n => String(n).padStart(2, "0");
+  const el = document.getElementById("asof");
+  el.textContent = `${p(k.getUTCMonth() + 1)}.${p(k.getUTCDate())} ${p(k.getUTCHours())}:${p(k.getUTCMinutes())} 수집 기준 · 모집 중 ${courses.length}개 과정`;
+  el.hidden = false;
 }
 
 // ── 시작: API가 있으면 실데이터, 없으면 내장 샘플 ──
@@ -325,7 +375,9 @@ async function boot() {
   } catch {
     try { courses = JSON.parse(document.getElementById("sample-data").textContent); } catch { courses = []; }
   }
+  courses.forEach(c => { if (!c.tags || !c.tags.length) c.tags = ["etc"]; }); // 분야 키워드에 안 걸린 과정은 "기타"
   if (courses.some(c => c.is_sample)) document.getElementById("mode-banner").hidden = false;
+  showAsOf();
   initPanel();
   document.querySelectorAll(".tab").forEach(t => t.onclick = () => { tab = t.dataset.tab; render(); });
   ["q", "f-program", "sort"].forEach(id => document.getElementById(id).addEventListener("input", render));
