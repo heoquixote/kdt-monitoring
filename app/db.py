@@ -87,7 +87,10 @@ def upsert_courses(con, courses: list[dict]) -> dict:
 def load_courses(con, open_only: bool = True) -> list[dict]:
     q = "SELECT * FROM courses"
     if open_only:
-        q += " WHERE start_date >= date('now') OR status = '모집중'"
+        # 마지막 수집에서 목록에 나온 과정 중 아직 개강 전인 것만. 개강·마감으로 목록에서 빠진 과정은
+        # courses에 행이 남아 있으므로(이력용) 여기서 걸러야 화면에 지난 과정이 섞이지 않는다.
+        q += (" WHERE start_date >= date('now')"
+              " AND substr(last_seen_at, 1, 10) = (SELECT max(substr(last_seen_at, 1, 10)) FROM courses)")
     rows = [dict(r) for r in con.execute(q + " ORDER BY start_date")]
     for r in rows:
         r["tags"] = json.loads(r["tags"] or "[]")

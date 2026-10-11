@@ -29,3 +29,20 @@ def test_normalize_prefers_area_code_over_institution_address():
     assert c["region"] == "경북 포항시 남구"
     assert c["satisfaction"] is None and c["empl_rate3"] is None
     assert normalize(item, "C0105", "원격")["region"] == "원격"
+
+
+def test_load_courses_excludes_stale(tmp_path):
+    from datetime import date, timedelta
+
+    from app import db
+
+    future = (date.today() + timedelta(days=10)).isoformat()
+    past = (date.today() - timedelta(days=1)).isoformat()
+    base = {k: None for k in db.COURSE_COLS} | {"round": "1", "title": "t", "tags": [], "is_sample": 0}
+    with db.connect(str(tmp_path / "t.db")) as con:
+        db.upsert_courses(con, [base | {"course_id": "OLD", "start_date": future}])
+        con.execute("UPDATE courses SET last_seen_at = '2000-01-01T00:00:00+00:00'")
+        db.upsert_courses(con, [base | {"course_id": "NEW", "start_date": future},
+                                base | {"course_id": "STARTED", "start_date": past}])
+        ids = {r["course_id"] for r in db.load_courses(con)}
+    assert ids == {"NEW"}
