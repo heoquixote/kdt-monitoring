@@ -1,464 +1,5 @@
 [
  {
-  "course_id": "AIG20250000501596",
-  "round": "3",
-  "program": "C0104",
-  "title": "심화_생성형AI를 통한 데이터분석 RPA 자동화 서비스 플랫폼 개발과정",
-  "org_name": "두드림컴퓨터아카데미",
-  "inst_id": "500033915491",
-  "ncs_cd": "20010202",
-  "region": "경기 용인시 기흥구",
-  "address": "경기 용인시 기흥구",
-  "mode": "집체",
-  "start_date": "2026-10-23",
-  "end_date": "2026-12-23",
-  "hours": null,
-  "cost": 5097490,
-  "real_cost": 5097490,
-  "capacity": 20,
-  "registered": 0,
-  "empl_rate3": 60.0,
-  "empl_rate6": null,
-  "empl_source": "이전 1개 회차 평균(수료 8명)",
-  "satisfaction": 85.7,
-  "grade": "",
-  "tags": [
-   "data",
-   "ai"
-  ],
-  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20250000501596&tracseTme=3&crseTracseSe=C0061&trainstCstmrId=500033915491",
-  "status": "모집중",
-  "is_sample": 0,
-  "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
- },
- {
-  "course_id": "AIG20240000498073",
-  "round": "4",
-  "program": "C0104",
-  "title": "빅데이터분석(ElasticStack)활용&자바웹개발자",
-  "org_name": "더조은컴퓨터아카데미 종로",
-  "inst_id": "500020027870",
-  "ncs_cd": "20010105",
-  "region": "서울 종로구",
-  "address": "서울 종로구",
-  "mode": "집체",
-  "start_date": "2026-10-23",
-  "end_date": "2027-05-12",
-  "hours": null,
-  "cost": 10347370,
-  "real_cost": 10347370,
-  "capacity": 25,
-  "registered": 0,
-  "empl_rate3": 48.0,
-  "empl_rate6": 64.0,
-  "empl_source": "이전 2개 회차 평균(수료 20명)",
-  "satisfaction": 86.7,
-  "grade": "",
-  "tags": [
-   "data",
-   "web"
-  ],
-  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20240000498073&tracseTme=4&crseTracseSe=C0061&trainstCstmrId=500020027870",
-  "status": "모집중",
-  "is_sample": 0,
-  "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
- },
- {
-  "course_id": "AIG20250000501576",
-  "round": "2",
-  "program": "C0104",
-  "title": "Physical AI 기반 자율주행 및 협동로봇 SW 엔지니어 부트캠프",
-  "org_name": "아시아경제 교육센터",
-  "inst_id": "500020049185",
-  "ncs_cd": "20010705",
-  "region": "서울 중구",
-  "address": "서울 중구",
-  "mode": "집체",
-  "start_date": "2026-10-23",
-  "end_date": "2027-04-29",
-  "hours": null,
-  "cost": 17405850,
-  "real_cost": 17405850,
-  "capacity": 25,
-  "registered": 0,
-  "empl_rate3": null,
-  "empl_rate6": null,
-  "empl_source": null,
-  "satisfaction": 69.0,
-  "grade": "",
-  "tags": [
-   "ai",
-   "manufacturing"
-  ],
-  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20250000501576&tracseTme=2&crseTracseSe=C0061&trainstCstmrId=500020049185",
-  "status": "모집중",
-  "is_sample": 0,
-  "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
- },
- {
-  "course_id": "AIG20250000501473",
-  "round": "20",
-  "program": "C0104",
-  "title": "AI로 만드는 스마트 영상(영화/애니메이션/비디오북) 콘텐츠 제작 엔지니어링 과정(미드저니,Comfy-UI,Runway)",
-  "org_name": "연희직업전문학교(주)",
-  "inst_id": "500020041301",
-  "ncs_cd": "20010202",
-  "region": "인천 서해구",
-  "address": "인천 서해구",
-  "mode": "집체",
-  "start_date": "2026-10-23",
-  "end_date": "2027-02-26",
-  "hours": null,
-  "cost": 6588140,
-  "real_cost": 6588140,
-  "capacity": 25,
-  "registered": 0,
-  "empl_rate3": 20.5,
-  "empl_rate6": 53.3,
-  "empl_source": "이전 2개 회차 평균(수료 37명)",
-  "satisfaction": 82.8,
-  "grade": "",
-  "tags": [
-   "ai",
-   "game",
-   "design"
-  ],
-  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20250000501473&tracseTme=20&crseTracseSe=C0061&trainstCstmrId=500020041301",
-  "status": "모집중",
-  "is_sample": 0,
-  "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
- },
- {
-  "course_id": "AIG20240000498335",
-  "round": "7",
-  "program": "C0104",
-  "title": "LG CNS AM Inspire Camp",
-  "org_name": "(주)LG CNS Learning&Development담당(I)",
-  "inst_id": "500020021085",
-  "ncs_cd": "20010201",
-  "region": "서울 강서구",
-  "address": "서울 강서구",
-  "mode": "집체",
-  "start_date": "2026-10-23",
-  "end_date": "2027-04-16",
-  "hours": null,
-  "cost": 17424000,
-  "real_cost": 17424000,
-  "capacity": 50,
-  "registered": 44,
-  "empl_rate3": 12.7,
-  "empl_rate6": 43.1,
-  "empl_source": "이전 4개 회차 평균(수료 161명)",
-  "satisfaction": 84.9,
-  "grade": "",
-  "tags": [
-   "web"
-  ],
-  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20240000498335&tracseTme=7&crseTracseSe=C0061&trainstCstmrId=500020021085",
-  "status": "모집중",
-  "is_sample": 0,
-  "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
- },
- {
-  "course_id": "AIG20240000498293",
-  "round": "67",
-  "program": "C0104",
-  "title": "자바(Spring)기반 크로스 플랫폼(React-Native) 웹&앱 개발자 양성 과정",
-  "org_name": "라인컴퓨터아트학원",
-  "inst_id": "500020047973",
-  "ncs_cd": "20010202",
-  "region": "경기 안산시 단원구",
-  "address": "경기 안산시 단원구",
-  "mode": "집체",
-  "start_date": "2026-10-23",
-  "end_date": "2027-04-21",
-  "hours": null,
-  "cost": 9417050,
-  "real_cost": 9417050,
-  "capacity": 20,
-  "registered": 0,
-  "empl_rate3": 25.0,
-  "empl_rate6": 25.0,
-  "empl_source": "이전 1개 회차 평균(수료 13명)",
-  "satisfaction": 81.3,
-  "grade": "",
-  "tags": [
-   "web",
-   "mobile"
-  ],
-  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20240000498293&tracseTme=67&crseTracseSe=C0061&trainstCstmrId=500020047973",
-  "status": "모집중",
-  "is_sample": 0,
-  "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
- },
- {
-  "course_id": "AIG20240000498088",
-  "round": "12",
-  "program": "C0104",
-  "title": "빅데이터 분석 기반 AI서비스 기획&개발 부트캠프",
-  "org_name": "아시아경제 교육센터",
-  "inst_id": "500020049185",
-  "ncs_cd": "20010105",
-  "region": "서울 중구",
-  "address": "서울 중구",
-  "mode": "집체",
-  "start_date": "2026-10-23",
-  "end_date": "2027-02-15",
-  "hours": null,
-  "cost": 5657820,
-  "real_cost": 5657820,
-  "capacity": 25,
-  "registered": 0,
-  "empl_rate3": 22.3,
-  "empl_rate6": 48.8,
-  "empl_source": "이전 4개 회차 평균(수료 73명)",
-  "satisfaction": 92.0,
-  "grade": "",
-  "tags": [
-   "data",
-   "ai",
-   "pm"
-  ],
-  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20240000498088&tracseTme=12&crseTracseSe=C0061&trainstCstmrId=500020049185",
-  "status": "모집중",
-  "is_sample": 0,
-  "first_seen_at": "2026-10-08T10:53:49+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
- },
- {
-  "course_id": "AIG20240000458999",
-  "round": "8",
-  "program": "C0104",
-  "title": "융합_데이터 기반 차세대 디지털 헬스케어 AI 솔루션",
-  "org_name": "아시아경제 교육센터",
-  "inst_id": "500020049185",
-  "ncs_cd": "20010105",
-  "region": "서울 중구",
-  "address": "서울 중구",
-  "mode": "집체",
-  "start_date": "2026-10-23",
-  "end_date": "2027-04-14",
-  "hours": null,
-  "cost": 16335000,
-  "real_cost": 16335000,
-  "capacity": 25,
-  "registered": 0,
-  "empl_rate3": 18.7,
-  "empl_rate6": 39.2,
-  "empl_source": "이전 4개 회차 평균(수료 63명)",
-  "satisfaction": 82.1,
-  "grade": "",
-  "tags": [
-   "data",
-   "ai"
-  ],
-  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20240000458999&tracseTme=8&crseTracseSe=C0061&trainstCstmrId=500020049185",
-  "status": "모집중",
-  "is_sample": 0,
-  "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
- },
- {
-  "course_id": "AIG20240000459116",
-  "round": "16",
-  "program": "C0104",
-  "title": "(K-DIGITAL)기업요구 생성형 AI를 활용한 개발자 양성 과정",
-  "org_name": "라인컴퓨터아트학원",
-  "inst_id": "500020047973",
-  "ncs_cd": "20010202",
-  "region": "경기 안산시 단원구",
-  "address": "경기 안산시 단원구",
-  "mode": "집체",
-  "start_date": "2026-10-23",
-  "end_date": "2027-04-21",
-  "hours": null,
-  "cost": 9360090,
-  "real_cost": 9360090,
-  "capacity": 30,
-  "registered": 0,
-  "empl_rate3": 45.9,
-  "empl_rate6": 64.5,
-  "empl_source": "이전 3개 회차 평균(수료 40명)",
-  "satisfaction": 97.4,
-  "grade": "",
-  "tags": [
-   "ai"
-  ],
-  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20240000459116&tracseTme=16&crseTracseSe=C0061&trainstCstmrId=500020047973",
-  "status": "모집중",
-  "is_sample": 0,
-  "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
- },
- {
-  "course_id": "AIG20260000545842",
-  "round": "33",
-  "program": "C0105",
-  "title": "한 방에 끝내는 AI - 왕초보를 위한 인공지능 A-Z",
-  "org_name": "스마트인재개발원",
-  "inst_id": "500020018488",
-  "ncs_cd": "20010705",
-  "region": "원격",
-  "address": "전남광주 동구",
-  "mode": "원격",
-  "start_date": "2026-10-23",
-  "end_date": "2026-12-06",
-  "hours": null,
-  "cost": 396000,
-  "real_cost": 396000,
-  "capacity": 60,
-  "registered": 15,
-  "empl_rate3": 9.701,
-  "empl_rate6": null,
-  "empl_source": null,
-  "satisfaction": 87.5,
-  "grade": "",
-  "tags": [
-   "ai"
-  ],
-  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20260000545842&tracseTme=33&crseTracseSe=C0105&trainstCstmrId=500020018488",
-  "status": "모집중",
-  "is_sample": 0,
-  "first_seen_at": "2026-10-14T23:37:33+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
- },
- {
-  "course_id": "AIG20240000498183",
-  "round": "37",
-  "program": "C0104",
-  "title": "프로젝트 기반의 AI 활용 웹 개발자 양성",
-  "org_name": "대우능력개발원",
-  "inst_id": "500020011407",
-  "ncs_cd": "20010207",
-  "region": "서울 중랑구",
-  "address": "서울 중랑구",
-  "mode": "집체",
-  "start_date": "2026-10-23",
-  "end_date": "2027-04-13",
-  "hours": null,
-  "cost": 8923420,
-  "real_cost": 8923420,
-  "capacity": 20,
-  "registered": 0,
-  "empl_rate3": 8.3,
-  "empl_rate6": 54.2,
-  "empl_source": "이전 2개 회차 평균(수료 12명)",
-  "satisfaction": 94.0,
-  "grade": "",
-  "tags": [
-   "ai",
-   "web"
-  ],
-  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20240000498183&tracseTme=37&crseTracseSe=C0061&trainstCstmrId=500020011407",
-  "status": "모집중",
-  "is_sample": 0,
-  "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
- },
- {
-  "course_id": "AIG20240000499634",
-  "round": "175",
-  "program": "C0105",
-  "title": "상위 1% 일잘러를 위한 고급 프롬프트 엔지니어링",
-  "org_name": "(주)모두의연구소",
-  "inst_id": "500037143258",
-  "ncs_cd": "20010702",
-  "region": "원격",
-  "address": "서울 강남구",
-  "mode": "원격",
-  "start_date": "2026-10-23",
-  "end_date": "2026-11-21",
-  "hours": null,
-  "cost": 150000,
-  "real_cost": 150000,
-  "capacity": 25,
-  "registered": 4,
-  "empl_rate3": 14.0,
-  "empl_rate6": 16.0,
-  "empl_source": null,
-  "satisfaction": 85.7,
-  "grade": "",
-  "tags": [
-   "ai"
-  ],
-  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20240000499634&tracseTme=175&crseTracseSe=C0105&trainstCstmrId=500037143258",
-  "status": "모집중",
-  "is_sample": 0,
-  "first_seen_at": "2026-10-21T23:52:59+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
- },
- {
-  "course_id": "AIG20260000543180",
-  "round": "79",
-  "program": "C0105",
-  "title": "AI by Hand: 내 손으로 이해하는 딥러닝 기초수학(feat. 파이썬)",
-  "org_name": "(주)모두의연구소",
-  "inst_id": "500037143258",
-  "ncs_cd": "20010703",
-  "region": "원격",
-  "address": "서울 강남구",
-  "mode": "원격",
-  "start_date": "2026-10-23",
-  "end_date": "2026-11-21",
-  "hours": null,
-  "cost": 181500,
-  "real_cost": 181500,
-  "capacity": 25,
-  "registered": 0,
-  "empl_rate3": 0.0,
-  "empl_rate6": null,
-  "empl_source": null,
-  "satisfaction": 91.1,
-  "grade": "",
-  "tags": [
-   "ai"
-  ],
-  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20260000543180&tracseTme=79&crseTracseSe=C0105&trainstCstmrId=500037143258",
-  "status": "모집중",
-  "is_sample": 0,
-  "first_seen_at": "2026-10-21T23:52:59+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
- },
- {
-  "course_id": "AIG20260000543179",
-  "round": "79",
-  "program": "C0105",
-  "title": "AI와 함께 코딩하자! 인공지능/데이터 커리어 첫걸음",
-  "org_name": "(주)모두의연구소",
-  "inst_id": "500037143258",
-  "ncs_cd": "20010705",
-  "region": "원격",
-  "address": "서울 강남구",
-  "mode": "원격",
-  "start_date": "2026-10-23",
-  "end_date": "2026-11-21",
-  "hours": null,
-  "cost": 205700,
-  "real_cost": 205700,
-  "capacity": 25,
-  "registered": 4,
-  "empl_rate3": 20.0,
-  "empl_rate6": null,
-  "empl_source": null,
-  "satisfaction": 64.3,
-  "grade": "",
-  "tags": [
-   "data",
-   "ai"
-  ],
-  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20260000543179&tracseTme=79&crseTracseSe=C0105&trainstCstmrId=500037143258",
-  "status": "모집중",
-  "is_sample": 0,
-  "first_seen_at": "2026-10-21T23:52:59+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
- },
- {
   "course_id": "AIG20250000539913",
   "round": "52",
   "program": "C0105",
@@ -479,7 +20,7 @@
   "empl_rate3": 13.158,
   "empl_rate6": 1.754,
   "empl_source": null,
-  "satisfaction": 83.8,
+  "satisfaction": 84.2,
   "grade": "",
   "tags": [
    "ai"
@@ -488,7 +29,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-12T00:09:46+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499400",
@@ -520,74 +61,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-12T00:09:46+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
- },
- {
-  "course_id": "AIG20250000501352",
-  "round": "12",
-  "program": "C0104",
-  "title": "인공지능(AI),빅데이터 활용 웹솔루션 개발자 양성(Python, Java)",
-  "org_name": "휴먼AI교육센터_내일배움카드교육",
-  "inst_id": "500034772319",
-  "ncs_cd": "20010202",
-  "region": "경기 수원시 팔달구",
-  "address": "경기 수원시 팔달구",
-  "mode": "집체",
-  "start_date": "2026-10-24",
-  "end_date": "2027-02-22",
-  "hours": null,
-  "cost": 9265160,
-  "real_cost": 9265160,
-  "capacity": 25,
-  "registered": 0,
-  "empl_rate3": 25.0,
-  "empl_rate6": 58.3,
-  "empl_source": "이전 1개 회차 평균(수료 15명)",
-  "satisfaction": 87.0,
-  "grade": "",
-  "tags": [
-   "data",
-   "ai",
-   "web"
-  ],
-  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20250000501352&tracseTme=12&crseTracseSe=C0061&trainstCstmrId=500034772319",
-  "status": "모집중",
-  "is_sample": 0,
-  "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
- },
- {
-  "course_id": "AIG20240000498225",
-  "round": "17",
-  "program": "C0104",
-  "title": "심화_인공지능(AI) 서비스 기반 웹 개발자 심화 프로젝트",
-  "org_name": "휴먼AI교육센터_내일배움카드교육",
-  "inst_id": "500034772319",
-  "ncs_cd": "20010202",
-  "region": "경기 수원시 팔달구",
-  "address": "경기 수원시 팔달구",
-  "mode": "집체",
-  "start_date": "2026-10-24",
-  "end_date": "2026-12-05",
-  "hours": null,
-  "cost": 4966040,
-  "real_cost": 4966040,
-  "capacity": 35,
-  "registered": 0,
-  "empl_rate3": 47.3,
-  "empl_rate6": 70.4,
-  "empl_source": "이전 8개 회차 평균(수료 162명)",
-  "satisfaction": 87.7,
-  "grade": "",
-  "tags": [
-   "ai",
-   "web"
-  ],
-  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20240000498225&tracseTme=17&crseTracseSe=C0061&trainstCstmrId=500034772319",
-  "status": "모집중",
-  "is_sample": 0,
-  "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501475",
@@ -621,7 +95,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-16T23:13:46+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501516",
@@ -654,7 +128,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-16T23:13:46+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498248",
@@ -686,7 +160,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-16T23:13:46+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498183",
@@ -719,7 +193,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501479",
@@ -753,7 +227,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501462",
@@ -786,7 +260,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501462",
@@ -819,7 +293,74 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T10:53:49+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
+ },
+ {
+  "course_id": "AIG20250000501352",
+  "round": "12",
+  "program": "C0104",
+  "title": "인공지능(AI),빅데이터 활용 웹솔루션 개발자 양성(Python, Java)",
+  "org_name": "휴먼AI교육센터_내일배움카드교육",
+  "inst_id": "500034772319",
+  "ncs_cd": "20010202",
+  "region": "경기 수원시 팔달구",
+  "address": "경기 수원시 팔달구",
+  "mode": "집체",
+  "start_date": "2026-10-25",
+  "end_date": "2027-02-23",
+  "hours": null,
+  "cost": 9265160,
+  "real_cost": 9265160,
+  "capacity": 25,
+  "registered": 0,
+  "empl_rate3": 25.0,
+  "empl_rate6": 58.3,
+  "empl_source": "이전 1개 회차 평균(수료 15명)",
+  "satisfaction": 87.0,
+  "grade": "",
+  "tags": [
+   "data",
+   "ai",
+   "web"
+  ],
+  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20250000501352&tracseTme=12&crseTracseSe=C0061&trainstCstmrId=500034772319",
+  "status": "모집중",
+  "is_sample": 0,
+  "first_seen_at": "2026-10-13T02:23:45+00:00",
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
+ },
+ {
+  "course_id": "AIG20240000498225",
+  "round": "17",
+  "program": "C0104",
+  "title": "심화_인공지능(AI) 서비스 기반 웹 개발자 심화 프로젝트",
+  "org_name": "휴먼AI교육센터_내일배움카드교육",
+  "inst_id": "500034772319",
+  "ncs_cd": "20010202",
+  "region": "경기 수원시 팔달구",
+  "address": "경기 수원시 팔달구",
+  "mode": "집체",
+  "start_date": "2026-10-25",
+  "end_date": "2026-12-06",
+  "hours": null,
+  "cost": 4966040,
+  "real_cost": 4966040,
+  "capacity": 35,
+  "registered": 0,
+  "empl_rate3": 47.3,
+  "empl_rate6": 70.4,
+  "empl_source": "이전 8개 회차 평균(수료 162명)",
+  "satisfaction": 87.7,
+  "grade": "",
+  "tags": [
+   "ai",
+   "web"
+  ],
+  "link": "https://www.work24.go.kr/hr/a/a/3100/selectTracseDetl.do?tracseId=AIG20240000498225&tracseTme=17&crseTracseSe=C0061&trainstCstmrId=500034772319",
+  "status": "모집중",
+  "is_sample": 0,
+  "first_seen_at": "2026-10-13T02:23:45+00:00",
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501516",
@@ -852,7 +393,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-16T23:13:46+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498248",
@@ -884,7 +425,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-16T23:13:46+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501475",
@@ -918,7 +459,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-16T23:13:46+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498183",
@@ -951,7 +492,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501479",
@@ -985,7 +526,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000580405",
@@ -1017,7 +558,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459267",
@@ -1050,7 +591,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498088",
@@ -1084,7 +625,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459042",
@@ -1117,7 +658,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000562927",
@@ -1150,7 +691,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498248",
@@ -1182,7 +723,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459262",
@@ -1215,7 +756,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459268",
@@ -1247,7 +788,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459051",
@@ -1281,7 +822,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459409",
@@ -1314,7 +855,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498213",
@@ -1348,7 +889,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000574544",
@@ -1381,7 +922,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000580421",
@@ -1413,7 +954,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000580422",
@@ -1445,7 +986,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501456",
@@ -1478,7 +1019,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498248",
@@ -1510,7 +1051,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501520",
@@ -1543,7 +1084,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501516",
@@ -1576,7 +1117,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459122",
@@ -1608,7 +1149,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501400",
@@ -1641,7 +1182,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498253",
@@ -1676,7 +1217,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498267",
@@ -1708,7 +1249,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -1741,7 +1282,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501473",
@@ -1775,7 +1316,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459363",
@@ -1807,7 +1348,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459307",
@@ -1841,7 +1382,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000563960",
@@ -1873,7 +1414,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459258",
@@ -1905,7 +1446,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498108",
@@ -1938,7 +1479,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000580045",
@@ -1971,7 +1512,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000564118",
@@ -2004,7 +1545,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000501251",
@@ -2036,7 +1577,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501436",
@@ -2068,7 +1609,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498248",
@@ -2100,7 +1641,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000581201",
@@ -2132,7 +1673,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000579694",
@@ -2164,7 +1705,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498302",
@@ -2196,7 +1737,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000566395",
@@ -2229,7 +1770,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501509",
@@ -2261,7 +1802,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000580045",
@@ -2294,7 +1835,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498182",
@@ -2327,7 +1868,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501462",
@@ -2360,7 +1901,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T10:53:49+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501479",
@@ -2394,7 +1935,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-09T00:56:42+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -2426,7 +1967,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000540073",
@@ -2459,7 +2000,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000544931",
@@ -2491,7 +2032,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501475",
@@ -2525,7 +2066,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T23:37:33+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459077",
@@ -2559,7 +2100,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498095",
@@ -2593,7 +2134,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498100",
@@ -2626,7 +2167,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498183",
@@ -2659,7 +2200,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501481",
@@ -2692,7 +2233,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-21T23:52:59+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501415",
@@ -2726,7 +2267,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-22T23:51:14+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000543179",
@@ -2759,7 +2300,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-22T23:51:14+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499636",
@@ -2780,7 +2321,7 @@
   "capacity": 25,
   "registered": 0,
   "empl_rate3": 16.667,
-  "empl_rate6": 25.694,
+  "empl_rate6": 26.389,
   "empl_source": null,
   "satisfaction": 76.2,
   "grade": "",
@@ -2791,7 +2332,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-22T23:51:14+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000543180",
@@ -2823,7 +2364,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-22T23:51:14+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000458999",
@@ -2856,7 +2397,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459311",
@@ -2888,7 +2429,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501576",
@@ -2921,7 +2462,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501622",
@@ -2956,7 +2497,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498128",
@@ -2989,7 +2530,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459301",
@@ -3022,7 +2563,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459086",
@@ -3054,7 +2595,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459108",
@@ -3087,7 +2628,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000577071",
@@ -3119,7 +2660,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501393",
@@ -3151,7 +2692,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459091",
@@ -3184,7 +2725,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459143",
@@ -3216,7 +2757,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459267",
@@ -3249,7 +2790,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -3282,7 +2823,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000577070",
@@ -3314,7 +2855,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498338",
@@ -3347,7 +2888,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459268",
@@ -3379,7 +2920,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459191",
@@ -3411,7 +2952,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501473",
@@ -3445,7 +2986,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000581146",
@@ -3478,7 +3019,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501462",
@@ -3511,7 +3052,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T10:53:49+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501479",
@@ -3545,7 +3086,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-09T00:56:42+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -3577,7 +3118,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000543173",
@@ -3609,7 +3150,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545906",
@@ -3632,7 +3173,7 @@
   "empl_rate3": 11.111,
   "empl_rate6": null,
   "empl_source": null,
-  "satisfaction": 80.0,
+  "satisfaction": 79.5,
   "grade": "",
   "tags": [
    "ai"
@@ -3641,7 +3182,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-15T23:31:44+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545756",
@@ -3674,7 +3215,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499099",
@@ -3693,11 +3234,11 @@
   "cost": 490000,
   "real_cost": 490000,
   "capacity": 100,
-  "registered": 13,
+  "registered": 16,
   "empl_rate3": 22.609,
   "empl_rate6": 32.174,
   "empl_source": null,
-  "satisfaction": 86.4,
+  "satisfaction": 87.0,
   "grade": "",
   "tags": [
    "ai"
@@ -3706,7 +3247,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545921",
@@ -3739,7 +3280,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499102",
@@ -3758,7 +3299,7 @@
   "cost": 490000,
   "real_cost": 490000,
   "capacity": 100,
-  "registered": 19,
+  "registered": 21,
   "empl_rate3": 20.27,
   "empl_rate6": 17.568,
   "empl_source": null,
@@ -3771,7 +3312,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499092",
@@ -3803,7 +3344,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499634",
@@ -3826,7 +3367,7 @@
   "empl_rate3": 14.0,
   "empl_rate6": 16.0,
   "empl_source": null,
-  "satisfaction": 85.7,
+  "satisfaction": 80.4,
   "grade": "",
   "tags": [
    "ai"
@@ -3835,7 +3376,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-22T23:51:14+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000543179",
@@ -3868,7 +3409,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000543180",
@@ -3900,7 +3441,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459311",
@@ -3932,7 +3473,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501462",
@@ -3965,7 +3506,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459409",
@@ -3998,7 +3539,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459366",
@@ -4032,7 +3573,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498331",
@@ -4065,7 +3606,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459059",
@@ -4098,7 +3639,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498159",
@@ -4130,7 +3671,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459368",
@@ -4163,7 +3704,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -4196,7 +3737,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501443",
@@ -4228,7 +3769,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498342",
@@ -4260,7 +3801,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459038",
@@ -4293,7 +3834,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501473",
@@ -4327,7 +3868,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499163",
@@ -4359,7 +3900,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000543159",
@@ -4392,7 +3933,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539967",
@@ -4424,7 +3965,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499225",
@@ -4457,7 +3998,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499422",
@@ -4489,7 +4030,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545336",
@@ -4509,7 +4050,7 @@
   "real_cost": 435600,
   "capacity": 50,
   "registered": 1,
-  "empl_rate3": 53.846,
+  "empl_rate3": 46.667,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 92.9,
@@ -4522,7 +4063,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539964",
@@ -4554,7 +4095,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499217",
@@ -4586,7 +4127,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498902",
@@ -4618,7 +4159,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499154",
@@ -4650,7 +4191,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000543158",
@@ -4682,7 +4223,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -4702,8 +4243,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 4,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -4714,7 +4255,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499133",
@@ -4746,7 +4287,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499162",
@@ -4778,7 +4319,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539903",
@@ -4811,7 +4352,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498897",
@@ -4831,8 +4372,8 @@
   "real_cost": 490000,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 31.818,
-  "empl_rate6": 44.545,
+  "empl_rate3": 31.532,
+  "empl_rate6": 44.144,
   "empl_source": null,
   "satisfaction": 80.3,
   "grade": "",
@@ -4843,7 +4384,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499606",
@@ -4875,7 +4416,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459058",
@@ -4908,7 +4449,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T10:53:49+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501479",
@@ -4942,7 +4483,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-09T00:56:42+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -4974,7 +4515,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545491",
@@ -5007,7 +4548,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545864",
@@ -5040,7 +4581,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501379",
@@ -5073,7 +4614,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T23:37:33+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000540059",
@@ -5094,7 +4635,7 @@
   "capacity": 30,
   "registered": 5,
   "empl_rate3": 10.39,
-  "empl_rate6": 9.091,
+  "empl_rate6": 12.987,
   "empl_source": null,
   "satisfaction": 95.8,
   "grade": "",
@@ -5106,7 +4647,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T23:37:33+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498095",
@@ -5140,7 +4681,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545842",
@@ -5172,7 +4713,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539886",
@@ -5193,7 +4734,7 @@
   "capacity": 50,
   "registered": 6,
   "empl_rate3": 21.556,
-  "empl_rate6": 28.222,
+  "empl_rate6": 28.667,
   "empl_source": null,
   "satisfaction": 91.7,
   "grade": "",
@@ -5204,7 +4745,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539888",
@@ -5224,8 +4765,8 @@
   "real_cost": 335000,
   "capacity": 50,
   "registered": 3,
-  "empl_rate3": 27.848,
-  "empl_rate6": 30.38,
+  "empl_rate3": 26.506,
+  "empl_rate6": 28.916,
   "empl_source": null,
   "satisfaction": 91.9,
   "grade": "",
@@ -5236,7 +4777,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459095",
@@ -5268,7 +4809,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539889",
@@ -5288,8 +4829,8 @@
   "real_cost": 345000,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 27.848,
-  "empl_rate6": 36.709,
+  "empl_rate3": 26.829,
+  "empl_rate6": 35.366,
   "empl_source": null,
   "satisfaction": 92.5,
   "grade": "",
@@ -5302,7 +4843,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459129",
@@ -5334,7 +4875,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-22T23:51:14+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501479",
@@ -5368,7 +4909,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501462",
@@ -5401,7 +4942,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459325",
@@ -5433,7 +4974,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498072",
@@ -5465,7 +5006,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459258",
@@ -5497,7 +5038,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501345",
@@ -5530,7 +5071,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000501233",
@@ -5564,7 +5105,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501473",
@@ -5598,7 +5139,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459310",
@@ -5630,7 +5171,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -5663,7 +5204,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459301",
@@ -5696,7 +5237,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -5728,7 +5269,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499462",
@@ -5760,7 +5301,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-15T23:31:44+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459292",
@@ -5792,7 +5333,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539889",
@@ -5812,8 +5353,8 @@
   "real_cost": 345000,
   "capacity": 50,
   "registered": 18,
-  "empl_rate3": 27.848,
-  "empl_rate6": 36.709,
+  "empl_rate3": 26.829,
+  "empl_rate6": 35.366,
   "empl_source": null,
   "satisfaction": 92.5,
   "grade": "",
@@ -5826,7 +5367,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539886",
@@ -5847,7 +5388,7 @@
   "capacity": 50,
   "registered": 16,
   "empl_rate3": 21.556,
-  "empl_rate6": 28.222,
+  "empl_rate6": 28.667,
   "empl_source": null,
   "satisfaction": 91.7,
   "grade": "",
@@ -5858,7 +5399,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539888",
@@ -5878,8 +5419,8 @@
   "real_cost": 335000,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 27.848,
-  "empl_rate6": 30.38,
+  "empl_rate3": 26.506,
+  "empl_rate6": 28.916,
   "empl_source": null,
   "satisfaction": 91.9,
   "grade": "",
@@ -5890,7 +5431,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499623",
@@ -5922,7 +5463,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-21T23:52:59+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501479",
@@ -5956,7 +5497,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501462",
@@ -5989,7 +5530,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501640",
@@ -6021,7 +5562,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501656",
@@ -6053,7 +5594,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501473",
@@ -6087,7 +5628,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498076",
@@ -6119,7 +5660,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501679",
@@ -6152,7 +5693,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -6185,7 +5726,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498402",
@@ -6217,7 +5758,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501666",
@@ -6249,7 +5790,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501665",
@@ -6281,7 +5822,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501677",
@@ -6313,7 +5854,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501374",
@@ -6345,7 +5886,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545806",
@@ -6377,7 +5918,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -6409,7 +5950,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501352",
@@ -6443,7 +5984,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498225",
@@ -6476,7 +6017,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498095",
@@ -6510,7 +6051,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501663",
@@ -6542,7 +6083,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501639",
@@ -6574,7 +6115,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501640",
@@ -6606,7 +6147,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499400",
@@ -6638,7 +6179,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545299",
@@ -6661,7 +6202,7 @@
   "empl_rate3": 14.493,
   "empl_rate6": null,
   "empl_source": null,
-  "satisfaction": 81.8,
+  "satisfaction": 82.0,
   "grade": "",
   "tags": [
    "data",
@@ -6671,7 +6212,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539913",
@@ -6694,7 +6235,7 @@
   "empl_rate3": 13.158,
   "empl_rate6": 1.754,
   "empl_source": null,
-  "satisfaction": 83.8,
+  "satisfaction": 84.2,
   "grade": "",
   "tags": [
    "ai"
@@ -6703,7 +6244,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499633",
@@ -6735,7 +6276,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T23:37:33+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501475",
@@ -6769,7 +6310,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498104",
@@ -6801,7 +6342,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459235",
@@ -6833,7 +6374,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459017",
@@ -6866,7 +6407,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459402",
@@ -6898,7 +6439,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498182",
@@ -6931,7 +6472,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459077",
@@ -6965,7 +6506,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000581210",
@@ -6997,7 +6538,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459278",
@@ -7029,7 +6570,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459258",
@@ -7061,7 +6602,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000580430",
@@ -7094,7 +6635,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498303",
@@ -7126,7 +6667,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501396",
@@ -7158,7 +6699,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459253",
@@ -7192,7 +6733,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459157",
@@ -7224,7 +6765,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498102",
@@ -7256,7 +6797,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -7288,7 +6829,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -7321,7 +6862,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501335",
@@ -7354,7 +6895,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T23:37:33+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539952",
@@ -7386,7 +6927,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T23:37:33+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501439",
@@ -7418,7 +6959,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498095",
@@ -7452,7 +6993,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539951",
@@ -7484,7 +7025,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000540073",
@@ -7517,7 +7058,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539950",
@@ -7550,7 +7091,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539956",
@@ -7569,7 +7110,7 @@
   "cost": 399300,
   "real_cost": 399300,
   "capacity": 30,
-  "registered": 6,
+  "registered": 8,
   "empl_rate3": 17.143,
   "empl_rate6": 29.429,
   "empl_source": null,
@@ -7583,7 +7124,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539949",
@@ -7615,7 +7156,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000544931",
@@ -7647,7 +7188,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501415",
@@ -7681,7 +7222,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-21T23:52:59+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501473",
@@ -7715,7 +7256,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459167",
@@ -7747,7 +7288,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459298",
@@ -7781,7 +7322,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498146",
@@ -7813,7 +7354,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000580423",
@@ -7845,7 +7386,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000579888",
@@ -7877,7 +7418,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000567175",
@@ -7909,7 +7450,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -7941,7 +7482,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -7974,7 +7515,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545906",
@@ -7997,7 +7538,7 @@
   "empl_rate3": 11.111,
   "empl_rate6": null,
   "empl_source": null,
-  "satisfaction": 80.0,
+  "satisfaction": 79.5,
   "grade": "",
   "tags": [
    "ai"
@@ -8006,7 +7547,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-15T23:31:44+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498178",
@@ -8039,7 +7580,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499112",
@@ -8071,7 +7612,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000543173",
@@ -8090,7 +7631,7 @@
   "cost": 500000,
   "real_cost": 500000,
   "capacity": 50,
-  "registered": 0,
+  "registered": 1,
   "empl_rate3": null,
   "empl_rate6": null,
   "empl_source": null,
@@ -8103,7 +7644,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499028",
@@ -8135,7 +7676,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501473",
@@ -8169,7 +7710,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459432",
@@ -8201,7 +7742,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459038",
@@ -8234,7 +7775,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000581133",
@@ -8268,7 +7809,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498084",
@@ -8301,7 +7842,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459113",
@@ -8336,7 +7877,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499154",
@@ -8368,7 +7909,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499163",
@@ -8400,7 +7941,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -8420,8 +7961,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -8432,7 +7973,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498897",
@@ -8452,8 +7993,8 @@
   "real_cost": 490000,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 31.818,
-  "empl_rate6": 44.545,
+  "empl_rate3": 31.532,
+  "empl_rate6": 44.144,
   "empl_source": null,
   "satisfaction": 80.3,
   "grade": "",
@@ -8464,7 +8005,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499133",
@@ -8496,7 +8037,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499162",
@@ -8528,7 +8069,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539903",
@@ -8561,7 +8102,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498902",
@@ -8593,7 +8134,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499225",
@@ -8626,7 +8167,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539967",
@@ -8658,7 +8199,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499217",
@@ -8690,7 +8231,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545336",
@@ -8710,7 +8251,7 @@
   "real_cost": 435600,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 53.846,
+  "empl_rate3": 46.667,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 92.9,
@@ -8723,7 +8264,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539964",
@@ -8755,7 +8296,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499422",
@@ -8787,7 +8328,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -8819,7 +8360,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -8852,7 +8393,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000544634",
@@ -8885,7 +8426,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499351",
@@ -8917,7 +8458,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498095",
@@ -8951,7 +8492,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000543158",
@@ -8983,7 +8524,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000543159",
@@ -9016,7 +8557,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499606",
@@ -9048,7 +8589,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000540059",
@@ -9069,7 +8610,7 @@
   "capacity": 30,
   "registered": 0,
   "empl_rate3": 10.39,
-  "empl_rate6": 9.091,
+  "empl_rate6": 12.987,
   "empl_source": null,
   "satisfaction": 95.8,
   "grade": "",
@@ -9081,7 +8622,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545864",
@@ -9114,7 +8655,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545491",
@@ -9147,7 +8688,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501473",
@@ -9181,7 +8722,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545842",
@@ -9213,7 +8754,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501379",
@@ -9246,7 +8787,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498128",
@@ -9279,7 +8820,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501434",
@@ -9312,7 +8853,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459352",
@@ -9344,7 +8885,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459258",
@@ -9376,7 +8917,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545828",
@@ -9410,7 +8951,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -9442,7 +8983,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -9475,7 +9016,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501473",
@@ -9509,7 +9050,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000566958",
@@ -9542,7 +9083,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459066",
@@ -9574,7 +9115,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T10:53:49+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459311",
@@ -9606,7 +9147,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -9638,7 +9179,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -9671,7 +9212,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498095",
@@ -9705,7 +9246,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501473",
@@ -9739,7 +9280,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459227",
@@ -9771,7 +9312,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498182",
@@ -9804,7 +9345,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501387",
@@ -9836,7 +9377,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501622",
@@ -9871,7 +9412,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459122",
@@ -9903,7 +9444,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459422",
@@ -9935,7 +9476,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501520",
@@ -9968,7 +9509,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000501252",
@@ -10000,7 +9541,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459422",
@@ -10032,7 +9573,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459258",
@@ -10064,7 +9605,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459209",
@@ -10096,7 +9637,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498073",
@@ -10129,7 +9670,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459408",
@@ -10161,7 +9702,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459422",
@@ -10193,7 +9734,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501481",
@@ -10226,7 +9767,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498123",
@@ -10259,7 +9800,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501462",
@@ -10292,7 +9833,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459422",
@@ -10324,7 +9865,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501779",
@@ -10358,7 +9899,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -10390,7 +9931,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -10423,7 +9964,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501352",
@@ -10457,7 +9998,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501415",
@@ -10491,7 +10032,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-21T23:52:59+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000581131",
@@ -10523,7 +10064,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-22T23:51:14+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501473",
@@ -10557,7 +10098,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459058",
@@ -10590,7 +10131,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000580400",
@@ -10623,7 +10164,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000574169",
@@ -10655,7 +10196,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498253",
@@ -10690,7 +10231,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501666",
@@ -10722,7 +10263,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501679",
@@ -10755,7 +10296,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459298",
@@ -10789,7 +10330,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501677",
@@ -10821,7 +10362,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000581137",
@@ -10853,7 +10394,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501656",
@@ -10885,7 +10426,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000580424",
@@ -10917,7 +10458,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000501219",
@@ -10950,7 +10491,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501665",
@@ -10982,7 +10523,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501668",
@@ -11014,7 +10555,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -11046,7 +10587,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -11079,7 +10620,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498095",
@@ -11113,7 +10654,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501473",
@@ -11147,7 +10688,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459113",
@@ -11182,7 +10723,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459129",
@@ -11214,7 +10755,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459167",
@@ -11246,7 +10787,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498079",
@@ -11279,7 +10820,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501754",
@@ -11312,7 +10853,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498108",
@@ -11345,7 +10886,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501460",
@@ -11378,7 +10919,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000581140",
@@ -11410,7 +10951,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459038",
@@ -11443,7 +10984,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499225",
@@ -11476,7 +11017,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545336",
@@ -11496,7 +11037,7 @@
   "real_cost": 435600,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 53.846,
+  "empl_rate3": 46.667,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 92.9,
@@ -11509,7 +11050,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498897",
@@ -11529,8 +11070,8 @@
   "real_cost": 490000,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 31.818,
-  "empl_rate6": 44.545,
+  "empl_rate3": 31.532,
+  "empl_rate6": 44.144,
   "empl_source": null,
   "satisfaction": 80.3,
   "grade": "",
@@ -11541,7 +11082,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -11561,8 +11102,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -11573,7 +11114,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498902",
@@ -11605,7 +11146,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499217",
@@ -11637,7 +11178,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-12T00:09:46+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539903",
@@ -11670,7 +11211,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-12T00:09:46+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539967",
@@ -11702,7 +11243,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-12T00:09:46+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -11734,7 +11275,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -11767,7 +11308,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539964",
@@ -11799,7 +11340,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000543159",
@@ -11832,7 +11373,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000543158",
@@ -11864,7 +11405,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499606",
@@ -11896,7 +11437,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501473",
@@ -11930,7 +11471,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498099",
@@ -11964,7 +11505,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000567295",
@@ -11996,7 +11537,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501434",
@@ -12029,7 +11570,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498142",
@@ -12062,7 +11603,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498115",
@@ -12094,7 +11635,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459283",
@@ -12127,7 +11668,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498066",
@@ -12162,7 +11703,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501781",
@@ -12195,7 +11736,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501345",
@@ -12228,7 +11769,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501476",
@@ -12260,7 +11801,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459302",
@@ -12293,7 +11834,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459039",
@@ -12326,7 +11867,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459301",
@@ -12359,7 +11900,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -12391,7 +11932,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -12424,7 +11965,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498095",
@@ -12458,7 +11999,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501473",
@@ -12492,7 +12033,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -12524,7 +12065,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -12557,7 +12098,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459390",
@@ -12590,7 +12131,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545806",
@@ -12622,7 +12163,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T23:37:33+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501473",
@@ -12656,7 +12197,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501475",
@@ -12690,7 +12231,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498182",
@@ -12723,7 +12264,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000501238",
@@ -12756,7 +12297,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459414",
@@ -12790,7 +12331,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498128",
@@ -12823,7 +12364,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000579657",
@@ -12856,7 +12397,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459185",
@@ -12888,7 +12429,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501445",
@@ -12920,7 +12461,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498303",
@@ -12952,7 +12493,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459210",
@@ -12985,7 +12526,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498258",
@@ -13017,7 +12558,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545060",
@@ -13051,7 +12592,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -13083,7 +12624,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -13116,7 +12657,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501352",
@@ -13150,7 +12691,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498225",
@@ -13183,7 +12724,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498095",
@@ -13217,7 +12758,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000581146",
@@ -13250,7 +12791,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-21T23:52:59+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459298",
@@ -13284,7 +12825,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501715",
@@ -13317,7 +12858,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000501254",
@@ -13350,7 +12891,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501400",
@@ -13383,7 +12924,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501428",
@@ -13416,7 +12957,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501694",
@@ -13448,7 +12989,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -13480,7 +13021,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -13513,7 +13054,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459113",
@@ -13548,7 +13089,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498079",
@@ -13581,7 +13122,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459038",
@@ -13614,7 +13155,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498084",
@@ -13647,7 +13188,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545336",
@@ -13667,7 +13208,7 @@
   "real_cost": 435600,
   "capacity": 50,
   "registered": 1,
-  "empl_rate3": 53.846,
+  "empl_rate3": 46.667,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 92.9,
@@ -13680,7 +13221,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498897",
@@ -13700,8 +13241,8 @@
   "real_cost": 490000,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 31.818,
-  "empl_rate6": 44.545,
+  "empl_rate3": 31.532,
+  "empl_rate6": 44.144,
   "empl_source": null,
   "satisfaction": 80.3,
   "grade": "",
@@ -13712,7 +13253,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -13732,8 +13273,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -13744,7 +13285,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498902",
@@ -13776,7 +13317,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -13808,7 +13349,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -13841,7 +13382,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499225",
@@ -13874,7 +13415,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-18T22:43:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498095",
@@ -13908,7 +13449,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000543158",
@@ -13940,7 +13481,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539903",
@@ -13973,7 +13514,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539967",
@@ -14005,7 +13546,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000543159",
@@ -14038,7 +13579,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499606",
@@ -14070,7 +13611,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539964",
@@ -14102,7 +13643,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499217",
@@ -14134,7 +13675,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000562817",
@@ -14167,7 +13708,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-22T23:51:14+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000581142",
@@ -14200,7 +13741,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501434",
@@ -14233,7 +13774,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498072",
@@ -14265,7 +13806,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -14297,7 +13838,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -14330,7 +13871,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501370",
@@ -14363,7 +13904,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498123",
@@ -14396,7 +13937,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -14428,7 +13969,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -14461,7 +14002,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000578396",
@@ -14493,7 +14034,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498095",
@@ -14527,7 +14068,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498198",
@@ -14559,7 +14100,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501415",
@@ -14593,7 +14134,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498182",
@@ -14626,7 +14167,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000562705",
@@ -14658,7 +14199,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -14690,7 +14231,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -14723,7 +14264,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459104",
@@ -14756,7 +14297,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-16T23:13:46+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459068",
@@ -14788,7 +14329,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-22T23:51:14+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501516",
@@ -14821,7 +14362,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459298",
@@ -14855,7 +14396,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459293",
@@ -14887,7 +14428,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459051",
@@ -14921,7 +14462,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459042",
@@ -14954,7 +14495,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459328",
@@ -14986,7 +14527,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -15018,7 +14559,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -15051,7 +14592,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498095",
@@ -15085,7 +14626,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501674",
@@ -15117,7 +14658,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501671",
@@ -15149,7 +14690,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000501198",
@@ -15181,7 +14722,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-21T23:52:59+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459097",
@@ -15213,7 +14754,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-22T23:51:14+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459129",
@@ -15245,7 +14786,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459113",
@@ -15280,7 +14821,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501434",
@@ -15313,7 +14854,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498079",
@@ -15346,7 +14887,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459167",
@@ -15378,7 +14919,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000581161",
@@ -15410,7 +14951,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459278",
@@ -15442,7 +14983,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498223",
@@ -15474,7 +15015,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501473",
@@ -15508,7 +15049,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -15528,8 +15069,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -15540,7 +15081,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498902",
@@ -15572,7 +15113,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545336",
@@ -15592,7 +15133,7 @@
   "real_cost": 435600,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 53.846,
+  "empl_rate3": 46.667,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 92.9,
@@ -15605,7 +15146,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498897",
@@ -15625,8 +15166,8 @@
   "real_cost": 490000,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 31.818,
-  "empl_rate6": 44.545,
+  "empl_rate3": 31.532,
+  "empl_rate6": 44.144,
   "empl_source": null,
   "satisfaction": 80.3,
   "grade": "",
@@ -15637,7 +15178,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498342",
@@ -15669,7 +15210,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -15701,7 +15242,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -15734,7 +15275,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000580431",
@@ -15766,7 +15307,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-16T23:13:46+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499225",
@@ -15799,7 +15340,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-18T22:43:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000543158",
@@ -15831,7 +15372,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499606",
@@ -15863,7 +15404,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000543159",
@@ -15896,7 +15437,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459368",
@@ -15929,7 +15470,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-22T23:51:14+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498374",
@@ -15961,7 +15502,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-22T23:51:14+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501379",
@@ -15994,7 +15535,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -16026,7 +15567,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -16059,7 +15600,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498095",
@@ -16093,7 +15634,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501529",
@@ -16126,7 +15667,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-21T23:52:59+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459441",
@@ -16158,7 +15699,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-22T23:51:14+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459279",
@@ -16190,7 +15731,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -16222,7 +15763,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -16255,7 +15796,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501663",
@@ -16287,7 +15828,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501415",
@@ -16321,7 +15862,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498079",
@@ -16354,7 +15895,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000581130",
@@ -16386,7 +15927,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498182",
@@ -16419,7 +15960,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498303",
@@ -16451,7 +15992,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498213",
@@ -16485,7 +16026,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459210",
@@ -16518,7 +16059,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498128",
@@ -16551,7 +16092,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459113",
@@ -16586,7 +16127,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498353",
@@ -16620,7 +16161,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501509",
@@ -16652,7 +16193,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -16684,7 +16225,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501352",
@@ -16718,7 +16259,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -16751,7 +16292,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459097",
@@ -16783,7 +16324,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-22T23:51:14+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -16815,7 +16356,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -16848,7 +16389,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498225",
@@ -16881,7 +16422,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498084",
@@ -16914,7 +16455,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000580400",
@@ -16947,7 +16488,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501374",
@@ -16979,7 +16520,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545336",
@@ -16999,7 +16540,7 @@
   "real_cost": 435600,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 53.846,
+  "empl_rate3": 46.667,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 92.9,
@@ -17012,7 +16553,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -17032,8 +16573,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -17044,7 +16585,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498902",
@@ -17076,7 +16617,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498897",
@@ -17096,8 +16637,8 @@
   "real_cost": 490000,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 31.818,
-  "empl_rate6": 44.545,
+  "empl_rate3": 31.532,
+  "empl_rate6": 44.144,
   "empl_source": null,
   "satisfaction": 80.3,
   "grade": "",
@@ -17108,7 +16649,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -17140,7 +16681,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -17173,7 +16714,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499225",
@@ -17206,7 +16747,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-18T22:43:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000543159",
@@ -17239,7 +16780,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501497",
@@ -17273,7 +16814,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-21T23:52:59+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -17305,7 +16846,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -17338,7 +16879,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -17370,7 +16911,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -17403,7 +16944,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501646",
@@ -17436,7 +16977,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498182",
@@ -17469,7 +17010,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459122",
@@ -17501,7 +17042,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498073",
@@ -17534,7 +17075,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501622",
@@ -17569,7 +17110,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -17601,7 +17142,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -17634,7 +17175,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501352",
@@ -17668,7 +17209,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459360",
@@ -17701,7 +17242,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459167",
@@ -17733,7 +17274,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -17765,7 +17306,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -17798,7 +17339,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498278",
@@ -17821,7 +17362,7 @@
   "empl_rate3": 16.6,
   "empl_rate6": 38.5,
   "empl_source": "이전 6개 회차 평균(수료 106명)",
-  "satisfaction": 81.9,
+  "satisfaction": 82.0,
   "grade": "",
   "tags": [
    "game",
@@ -17832,7 +17373,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545336",
@@ -17852,7 +17393,7 @@
   "real_cost": 435600,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 53.846,
+  "empl_rate3": 46.667,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 92.9,
@@ -17865,7 +17406,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498897",
@@ -17885,8 +17426,8 @@
   "real_cost": 490000,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 31.818,
-  "empl_rate6": 44.545,
+  "empl_rate3": 31.532,
+  "empl_rate6": 44.144,
   "empl_source": null,
   "satisfaction": 80.3,
   "grade": "",
@@ -17897,7 +17438,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -17917,8 +17458,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -17929,7 +17470,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498902",
@@ -17961,7 +17502,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -17993,7 +17534,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -18026,7 +17567,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499225",
@@ -18059,7 +17600,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-18T22:43:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498368",
@@ -18092,7 +17633,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-21T23:52:59+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459301",
@@ -18125,7 +17666,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -18157,7 +17698,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -18190,7 +17731,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -18222,7 +17763,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -18255,7 +17796,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000581128",
@@ -18288,7 +17829,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498182",
@@ -18321,7 +17862,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498128",
@@ -18354,7 +17895,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501721",
@@ -18387,7 +17928,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498303",
@@ -18419,7 +17960,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -18451,7 +17992,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -18484,7 +18025,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498095",
@@ -18518,7 +18059,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -18550,7 +18091,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -18583,7 +18124,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498172",
@@ -18616,7 +18157,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501436",
@@ -18648,7 +18189,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-21T23:52:59+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498084",
@@ -18681,7 +18222,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459187",
@@ -18713,7 +18254,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -18733,8 +18274,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -18745,7 +18286,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498902",
@@ -18777,7 +18318,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545336",
@@ -18797,7 +18338,7 @@
   "real_cost": 435600,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 53.846,
+  "empl_rate3": 46.667,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 92.9,
@@ -18810,7 +18351,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498897",
@@ -18830,8 +18371,8 @@
   "real_cost": 490000,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 31.818,
-  "empl_rate6": 44.545,
+  "empl_rate3": 31.532,
+  "empl_rate6": 44.144,
   "empl_source": null,
   "satisfaction": 80.3,
   "grade": "",
@@ -18842,7 +18383,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -18874,7 +18415,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -18907,7 +18448,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499225",
@@ -18940,7 +18481,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-18T22:43:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000580420",
@@ -18973,7 +18514,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498253",
@@ -19008,7 +18549,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -19040,7 +18581,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -19073,7 +18614,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -19105,7 +18646,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -19138,7 +18679,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498182",
@@ -19171,7 +18712,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498267",
@@ -19203,7 +18744,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501520",
@@ -19236,7 +18777,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -19268,7 +18809,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -19301,7 +18842,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459086",
@@ -19333,7 +18874,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501781",
@@ -19366,7 +18907,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -19398,7 +18939,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -19431,7 +18972,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459307",
@@ -19465,7 +19006,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545336",
@@ -19485,7 +19026,7 @@
   "real_cost": 435600,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 53.846,
+  "empl_rate3": 46.667,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 92.9,
@@ -19498,7 +19039,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498897",
@@ -19518,8 +19059,8 @@
   "real_cost": 490000,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 31.818,
-  "empl_rate6": 44.545,
+  "empl_rate3": 31.532,
+  "empl_rate6": 44.144,
   "empl_source": null,
   "satisfaction": 80.3,
   "grade": "",
@@ -19530,7 +19071,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -19550,8 +19091,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -19562,7 +19103,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498902",
@@ -19594,7 +19135,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -19626,7 +19167,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -19659,7 +19200,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459301",
@@ -19692,7 +19233,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -19724,7 +19265,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -19757,7 +19298,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501481",
@@ -19790,7 +19331,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498182",
@@ -19823,7 +19364,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501460",
@@ -19856,7 +19397,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501559",
@@ -19889,7 +19430,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501373",
@@ -19922,7 +19463,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000568364",
@@ -19954,7 +19495,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000580428",
@@ -19987,7 +19528,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -20019,7 +19560,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501352",
@@ -20053,7 +19594,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -20086,7 +19627,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000567295",
@@ -20118,7 +19659,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T23:37:33+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498362",
@@ -20151,7 +19692,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000580421",
@@ -20183,7 +19724,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000562927",
@@ -20216,7 +19757,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000580422",
@@ -20248,7 +19789,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000574544",
@@ -20281,7 +19822,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000580405",
@@ -20313,7 +19854,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000501238",
@@ -20346,7 +19887,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -20378,7 +19919,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -20411,7 +19952,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000562948",
@@ -20443,7 +19984,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T23:37:33+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000580427",
@@ -20476,7 +20017,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-16T23:13:46+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498172",
@@ -20509,7 +20050,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-21T23:52:59+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501703",
@@ -20542,7 +20083,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459115",
@@ -20574,7 +20115,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498225",
@@ -20607,7 +20148,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459109",
@@ -20639,7 +20180,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459111",
@@ -20672,7 +20213,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459114",
@@ -20704,7 +20245,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -20724,8 +20265,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -20736,7 +20277,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498902",
@@ -20768,7 +20309,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545336",
@@ -20788,7 +20329,7 @@
   "real_cost": 435600,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 53.846,
+  "empl_rate3": 46.667,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 92.9,
@@ -20801,7 +20342,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498897",
@@ -20821,8 +20362,8 @@
   "real_cost": 490000,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 31.818,
-  "empl_rate6": 44.545,
+  "empl_rate3": 31.532,
+  "empl_rate6": 44.144,
   "empl_source": null,
   "satisfaction": 80.3,
   "grade": "",
@@ -20833,7 +20374,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -20865,7 +20406,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -20898,7 +20439,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000499225",
@@ -20931,7 +20472,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-18T22:43:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000581209",
@@ -20964,7 +20505,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T00:05:17+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498090",
@@ -20996,7 +20537,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-20T23:36:10+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498128",
@@ -21029,7 +20570,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000501374",
@@ -21061,7 +20602,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000459116",
@@ -21093,7 +20634,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-13T02:23:45+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20240000498293",
@@ -21126,7 +20667,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-14T00:05:41+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000580420",
@@ -21159,7 +20700,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000580400",
@@ -21192,7 +20733,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545336",
@@ -21212,7 +20753,7 @@
   "real_cost": 435600,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 53.846,
+  "empl_rate3": 46.667,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 92.9,
@@ -21225,7 +20766,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -21245,8 +20786,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -21257,7 +20798,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000562256",
@@ -21289,7 +20830,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -21309,8 +20850,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -21321,7 +20862,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545336",
@@ -21341,7 +20882,7 @@
   "real_cost": 435600,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 53.846,
+  "empl_rate3": 46.667,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 92.9,
@@ -21354,7 +20895,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545336",
@@ -21374,7 +20915,7 @@
   "real_cost": 435600,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 53.846,
+  "empl_rate3": 46.667,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 92.9,
@@ -21387,7 +20928,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -21407,8 +20948,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -21419,7 +20960,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -21439,8 +20980,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -21451,7 +20992,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545336",
@@ -21471,7 +21012,7 @@
   "real_cost": 435600,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 53.846,
+  "empl_rate3": 46.667,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 92.9,
@@ -21484,7 +21025,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545336",
@@ -21504,7 +21045,7 @@
   "real_cost": 435600,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 53.846,
+  "empl_rate3": 46.667,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 92.9,
@@ -21517,7 +21058,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -21537,8 +21078,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -21549,7 +21090,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -21569,8 +21110,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -21581,7 +21122,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545336",
@@ -21601,7 +21142,7 @@
   "real_cost": 435600,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 53.846,
+  "empl_rate3": 46.667,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 92.9,
@@ -21614,7 +21155,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545336",
@@ -21634,7 +21175,7 @@
   "real_cost": 435600,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 53.846,
+  "empl_rate3": 46.667,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 92.9,
@@ -21647,7 +21188,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -21667,8 +21208,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -21679,7 +21220,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -21699,8 +21240,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -21711,7 +21252,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545336",
@@ -21731,7 +21272,7 @@
   "real_cost": 435600,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 53.846,
+  "empl_rate3": 46.667,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 92.9,
@@ -21744,7 +21285,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545336",
@@ -21764,7 +21305,7 @@
   "real_cost": 435600,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 53.846,
+  "empl_rate3": 46.667,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 92.9,
@@ -21777,7 +21318,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -21797,8 +21338,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -21809,7 +21350,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20260000545336",
@@ -21829,7 +21370,7 @@
   "real_cost": 435600,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 53.846,
+  "empl_rate3": 46.667,
   "empl_rate6": null,
   "empl_source": null,
   "satisfaction": 92.9,
@@ -21842,7 +21383,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -21862,8 +21403,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -21874,7 +21415,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -21894,8 +21435,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -21906,7 +21447,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -21926,8 +21467,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -21938,7 +21479,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -21958,8 +21499,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -21970,7 +21511,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-08T03:38:38+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -21990,8 +21531,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -22002,7 +21543,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-09T00:56:42+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -22022,8 +21563,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -22034,7 +21575,7 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-16T23:13:46+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  },
  {
   "course_id": "AIG20250000539881",
@@ -22054,8 +21595,8 @@
   "real_cost": 423500,
   "capacity": 50,
   "registered": 0,
-  "empl_rate3": 12.957,
-  "empl_rate6": 21.927,
+  "empl_rate3": 12.658,
+  "empl_rate6": 20.886,
   "empl_source": null,
   "satisfaction": 86.1,
   "grade": "",
@@ -22066,6 +21607,6 @@
   "status": "모집중",
   "is_sample": 0,
   "first_seen_at": "2026-10-23T23:44:11+00:00",
-  "last_seen_at": "2026-10-23T23:44:11+00:00"
+  "last_seen_at": "2026-10-24T22:50:50+00:00"
  }
 ]
